@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const plants = await getCollection("plants");
+const sample = plants.slice(0, 12);
+---
+<Base>
+  <section class="hero">
+    <h1>Полезные растения —<br />на русском, без шума.</h1>
+    <p>
+      Каталог из <strong>7 622</strong> растений базы PFAF (Plants For A Future).
+      Кустарники, травы, деревья и лианы — с указанием съедобных, лекарственных
+      и технических применений. Перевод постепенно добавляется.
+    </p>
+  </section>
+
+  <div class="grid">
+    {sample.map((plant) => (
+      <a class="card" href={`/plants/${plant.id}/`}>
+        {plant.data.images?.[0] && (
+          <div class="card-image">
+            <img src={plant.data.images[0]} alt={plant.data.title} loading="lazy" />
+          </div>
+        )}
+        <div class="card-body">
+          <div class="card-latin">{plant.data.latin}</div>
+          <div class="card-title">{plant.data.title}</div>
+          <div class="card-meta">
+            {plant.data.family && <span class="tag">{plant.data.family}</span>}
+            {plant.data.hardiness && <span class="tag">USDA {plant.data.hardiness}</span>}
+            {plant.data.habit && <span class="tag">{plant.data.habit}</span>}
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+
+  <p class="muted">
+    Показано первые {sample.length} из {plants.length}. Полный каталог появится по мере перевода.
+  </p>
+</Base>

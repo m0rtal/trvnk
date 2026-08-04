@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const plants = await getCollection("plants");
+  return plants.map((plant) => ({
+    params: { slug: plant.id },
+    props: { plant },
+  }));
+}
+
+const { plant } = Astro.props;
+const { Content } = await render(plant);
+const { data } = plant;
+---
+<Base title={`${data.title} — ${data.latin}`} description={data.range ?? data.common ?? ""}>
+  <article class="plant">
+    <header class="plant-header">
+      <div class="plant-latin">{data.latin}</div>
+      <h1 class="plant-title">{data.title}</h1>
+      <div class="plant-meta">
+        {data.common && <span class="tag">{data.common}</span>}
+        {data.family && <span class="tag">{data.family}</span>}
+        {data.habit && <span class="tag">{data.habit}</span>}
+        {data.hardiness && <span class="tag">USDA {data.hardiness}</span>}
+        {data.range && <span class="tag">{data.range}</span>}
+        {data.height_m != null && <span class="tag">до {data.height_m} м</span>}
+      </div>
+    </header>
+
+    {data.images && data.images.length > 0 && (
+      <div class="plant-gallery">
+        {data.images.map((src) => (
+          <img src={src} alt={data.title} loading="lazy" />
+        ))}
+      </div>
+    )}
+
+    <div class="plant-content">
+      <Content />
+    </div>
+  </article>
+</Base>
