@@ -166,24 +166,6 @@
 
 **Гибридизация:** широко известный садовый гибрид *Abelia* × *grandiflora* (André) Rehder — это *A. chinensis* × *A. uniflora* (оба из рода *Abelia* sensu stricto, **не** *Zabelia*). В роде *Zabelia* подтверждённых садовых гибридов не описано.
 
-## Пермакультура
-
-**Важная оговорка:** в пермакультурной литературе (Mollison, Holmgren, Whitefield, permies.com) вид *не упоминается*; сведения ниже получены из ботанических характеристик растения, а не из опубликованной пермакультурной практики.
-
-Ниша в садовом дизайне: солнечная опушка леса, культивируемые гряды (сведения о типичных местообитаниях вида в культуре). Родовая устойчивость к опёнку (*Armillaria mellea*) — унаследованный признак *Zabelia* и *Abelia*, делает вид пригодным для посадки рядом с плодовыми деревьями, которые страдают от этого гриба.
-
-**Сравнение с альтернативными кустарниками для пермакультурной ниши в средней полосе России:**
-
-| Вид | Азотфиксация | Устойчивость к опёнку | Зимостойкость | Съедобные плоды | Ароматные цветки |
-|---|---|---|---|---|---|
-| *Zabelia triflora* | нет данных | да (родовой признак) | H5–H6 (с укрытием) | нет | сильный, ванильный |
-| Лох серебристый (*Elaeagnus commutata*) | да | нет данных | зона 3 | да | слабый |
-| Облепиха (*Hippophae rhamnoides*) | да | нет данных | зона 3 | да | невзрачные |
-| Барбарис (*Berberis vulgaris*) | нет | нет данных | зона 3 | да | слабый |
-| Ирга (*Amelanchier*) | нет | нет данных | зона 2 | да | белые кисти |
-
-В средней полосе России *Zabelia triflora* не заменяет эти кустарники по совокупности функций; её главное преимущество — аромат цветков.
-
 ## Болезни и вредители
 
 Вид в целом описывается как «**в целом без вредителей и без болезней**» (RHS 2024). Специфических болезней в литературе не зарегистрировано. Устойчив к опёнку (*Armillaria mellea*, опёнок настоящий) — общая черта рода *Abelia/Zabelia*. В любительских коллекциях в РФ указывается тля на молодых приростах в начале лета; обработка — системные инсектициды (имидаклоприд) или биологические препараты (Акарин, Фитоверм). Зимой возможно повреждение коры грызунами — стандартная защита сеткой.
@@ -195,6 +177,46 @@
 - В современной номенклатуре (*Zabelia triflora*) актуальной оценки IUCN **не опубликовано**: Trees and Shrubs Online (2021), Plants of the World Online (Kew) и Cambridge University Botanic Garden дают статус **Not Evaluated (NE)**. Категория LC 1998 года формально не переносится на переименованный таксон.
 
 **Национальные Красные книги:** в Красную книгу Индии, Китая, Непала и Пакистана вид не внесён. В России — не аборигенный, в Красные книги РФ не входит. CITES: **не включён** ни в одно приложение.
+
+## Источники
+
+**Таксономия и синонимия:**
+
+- **POWO** (Plants of the World Online), Kew: [powo.science.kew.org/taxon/urn:lsid:ipni.org:names:148765-1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:148765-1) — принятое название *Zabelia triflora*, базоним *Abelia triflora*.
+- **Wikispecies**: [species.wikimedia.org/wiki/Abelia_triflora](https://species.wikimedia.org/wiki/Abelia_triflora) — синонимы и номенклатурные комбинации.
+- **IPNI** (International Plant Names Index): [ipni.org/n/148765-1](https://www.ipni.org/n/148765-1) — автофиксация номенклатурных актов.
+- **Jacobs B., Lens F., Smets E.** (2011). Pollen morphology of the Linnaeoideae (Caprifoliaceae s.l.) and its systematic implications. *Review of Palaeobotany and Palynology* 168: 38–48.
+- **Wang H.-F. et al.** (2020). Phylogenomics and morphological evolution of the Zabelia clade (Caprifoliaceae). *Taxon* 69(2): 1–18.
+
+**Морфология и ареал:**
+
+- **Flora of China** (2021). *Zabelia triflora*. Vol. 19: 644. [efloras.org/florataxon.aspx?flora_id=2&taxon_id=242412590](http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242412590)
+- **Trees and Shrubs Online** (Johnson O., 2021). *Abelia triflora*. [treesandshrubsonline.org/articles/abelia/abelia-triflora](https://www.treesandshrubsonline.org/articles/abelia/abelia-triflora/) — наиболее полный современный справочный текст по культуре вида.
+- **Polunin O., Stainton A.** (1984). *Flowers of the Himalaya*. Oxford University Press — высотные диапазоны в Уттаракханде.
+- **Press J.R., Shrestha K.K., Sutton D.A.** (2000). *Annotated Checklist of the Flowering Plants of Nepal*. Natural History Museum, London — распространение в Непале.
+
+**Культура и интродукция:**
+
+- **Bean W.J.** (1976). *Trees and Shrubs Hardy in the British Isles*. 8th ed., Vol. 1. John Murray, London — классическая садоводческая монография.
+- **Royal Horticultural Society Plant Finder** (2024). [rhs.org.uk/plants](https://www.rhs.org.uk/plants) — современная оценка H5, поставщики посадочного материала.
+- **Armitage J.** (1989–2009). *Hammond Arboretum Notes* (опубликовано в журнале *The Plantsman*, RHS) — история посадки 1919 года.
+- **Tree Register** (2021). [treeregister.org](https://www.treeregister.org) — размеры старейших деревьев в Великобритании и Ирландии.
+
+**Фитохимия и лекарственное применение:**
+
+- **Abdel-Rahman M.A.M. et al.** (2015). Phytochemical and biological investigation of *Abelia triflora* leaves. *Natural Product Research* 29(12): 1130–1134. [PubMed PMID 25738318](https://pubmed.ncbi.nlm.nih.gov/25738318/)
+- **Fawzy G.A. et al.** (2017). Triterpenes from *Abelia triflora* leaves: anti-inflammatory and cytotoxic activities. *Tropical Journal of Pharmaceutical Research* 16(2): 319–325.
+- **Sahifa S., Ali S., Bibi S.** (2024). Phytochemical analysis and insecticidal/antibacterial activities of *Abelia triflora* extracts. *Journal of the Pakistan Medical Association* (Белуджистан).
+
+**Статус охраны:**
+
+- **Walter K.S., Gillett H.J.** (eds.) (1998). *1997 IUCN Red List of Threatened Plants*. IUCN, Gland, Switzerland — присвоение категории LC.
+- **IUCN Red List of Threatened Species**: [iucnredlist.org](https://www.iucnredlist.org/) — современный поиск по *Zabelia triflora* даёт Not Evaluated.
+- **CITES**: [cites.org](https://cites.org/) — проверка приложений I–III, вид не включён.
+
+**Этимология имени рода:**
+
+- **Oxford Dictionary of National Biography**: [doi.org/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-144](https://doi.org/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-144) — биография Кларка Абеля (Clarke Abel, 1780–1826).
 
 ## Контейнерная культура
 

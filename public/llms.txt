@@ -12,12 +12,25 @@
 
 ## Структура каталога
 
-Каждая карточка растения (`/plants/<slug>/`) содержит:
+Карточка растения по адресу `/plants/<slug>/` содержит:
 
-1. Краткую сводку (таблица: тип, высота, семейство, ареал, морозостойкость и др.)
-2. Галерею фотографий
-3. Полное описание (таксономия, морфология, ареал, условия выращивания, размножение, статус охраны)
-4. Структурированные данные JSON-LD по Schema.org (Plant + Article)
+1. Краткую сводку (таблица: тип, высота, семейство, ареал, морозостойкость и др.).
+2. Галерею фотографий.
+3. Полное описание: таксономия, морфология, ареал, условия выращивания, размножение, статус охраны, применение.
+4. Блок «Источники» с прямыми ссылками на POWO, Flora of China, Trees and Shrubs Online, RHS, IUCN Red List, CITES, рецензированные публикации.
+5. Структурированные данные JSON-LD по Schema.org (Plant + Article + BreadcrumbList + FAQPage).
+
+## Авторитетные ботанические источники
+
+- POWO (Plants of the World Online, Kew): https://powo.science.kew.org/
+- Flora of China: http://www.efloras.org/florataxon.aspx?flora_id=2
+- Trees and Shrubs Online (Owen Johnson, 2021): https://www.treesandshrubsonline.org/
+- IPNI (International Plant Names Index): https://www.ipni.org/
+- Wikispecies: https://species.wikimedia.org/
+- RHS Plant Finder (2024): https://www.rhs.org.uk/plants
+- IUCN Red List: https://www.iucnredlist.org/
+- CITES: https://cites.org/
+- PubMed (фитохимия): https://pubmed.ncbi.nlm.nih.gov/
 
 ## Поля frontmatter (Markdown)
 
@@ -32,8 +45,8 @@ hardiness_zone: enum?       # H1..H6 (RHS)
 height_range: string?       # диапазон высоты с пояснением
 habit: string?              # тип (куст, дерево, ...)
 edibility: 0..5             # рейтинг съедобности
-medicinal: 0..5            # рейтинг лечебного применения
-other_uses: 0..5           # прочее применение
+medicinal: 0..5             # рейтинг лечебного применения
+other_uses: 0..5            # прочее применение
 weed_potential: string?
 hazards: string?
 soil: object?               # well_drained, moist, wet, water (booleans)
