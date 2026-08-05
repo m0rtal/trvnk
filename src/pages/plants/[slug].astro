@@ -58,6 +58,9 @@ const { data } = plant;
         {data.hazards && (
           <tr><th>Известные опасности</th><td>{data.hazards}</td></tr>
         )}
+        {data.hardiness_zone && (
+          <tr><th>Морозостойкость (PFAF)</th><td><span class="care-icon" title="Шкала PFAF"><span class="care-i">{data.hardiness_zone}</span><span class="care-t">{({H1:"Нежное, +10 °C",H2:"Полу-зимостойкое, 0 °C",H3:"Зимостойкое, −5 °C",H4:"Полностью зимостойкое, −15 °C",H5:"Очень зимостойкое"})[data.hardiness_zone] || data.hardiness_zone}</span></span></td></tr>
+        )}
         {data.weed_potential && (
           <tr><th>Сорный потенциал</th><td>{data.weed_potential}</td></tr>
         )}
@@ -88,19 +91,24 @@ const { data } = plant;
             <span class="rating-num">({data.other_uses ?? 0} из 5)</span>
           </td>
         </tr>
-        {(data.care?.hardy || data.care?.well_drained || data.care?.moist ||
-          data.care?.wet || data.care?.full_sun || data.care?.semi_shade ||
-          data.care?.full_shade) && (
+        {(data.soil?.well_drained || data.soil?.moist || data.soil?.wet || data.soil?.water) && (
           <tr>
-            <th>Уход</th>
+            <th>Почва</th>
             <td class="plant-care">
-              {data.care?.hardy && <span class="care-icon" title="Морозостойкое"><span class="care-i">❄</span><span class="care-t">Морозостойкое</span></span>}
-              {data.care?.well_drained && <span class="care-icon" title="Дренированная почва"><span class="care-i">◐</span><span class="care-t">Дренированная почва</span></span>}
-              {data.care?.moist && <span class="care-icon" title="Умеренно влажная почва"><span class="care-i">◑</span><span class="care-t">Умеренно влажно</span></span>}
-              {data.care?.wet && <span class="care-icon" title="Влажная или болотистая почва"><span class="care-i">●</span><span class="care-t">Влажно/болото</span></span>}
-              {data.care?.full_sun && <span class="care-icon" title="Полное солнце"><span class="care-i">☀</span><span class="care-t">Полное солнце</span></span>}
-              {data.care?.semi_shade && <span class="care-icon" title="Полутень"><span class="care-i">⛅</span><span class="care-t">Полутень</span></span>}
-              {data.care?.full_shade && <span class="care-icon" title="Полная тень"><span class="care-i">☁</span><span class="care-t">Полная тень</span></span>}
+              {data.soil?.well_drained && <span class="care-icon" title="Well Drained Soil — дренированная почва"><span class="care-i">◐</span><span class="care-t">Дренированная</span></span>}
+              {data.soil?.moist && <span class="care-icon" title="Moist Soil — умеренно влажная"><span class="care-i">◑</span><span class="care-t">Умеренно влажно</span></span>}
+              {data.soil?.wet && <span class="care-icon" title="Wet Soil — сырая, плохо дренированная"><span class="care-i">●</span><span class="care-t">Сырая</span></span>}
+              {data.soil?.water && <span class="care-icon" title="Water Plants — водное растение"><span class="care-i">≈</span><span class="care-t">Водное</span></span>}
+            </td>
+          </tr>
+        )}
+        {(data.light?.full_sun || data.light?.part_shade || data.light?.full_shade) && (
+          <tr>
+            <th>Свет</th>
+            <td class="plant-care">
+              {data.light?.full_sun && <span class="care-icon" title="Full Sun — полное солнце"><span class="care-i">☀</span><span class="care-t">Полное солнце</span></span>}
+              {data.light?.part_shade && <span class="care-icon" title="Part Shade — полутень"><span class="care-i">⛅</span><span class="care-t">Полутень</span></span>}
+              {data.light?.full_shade && <span class="care-icon" title="Full Shade — полная тень"><span class="care-i">☁</span><span class="care-t">Полная тень</span></span>}
             </td>
           </tr>
         )}

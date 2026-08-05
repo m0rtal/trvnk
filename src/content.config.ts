@@ -12,6 +12,10 @@ const plants = defineCollection({
     range: z.string().optional(),
     habitats: z.string().optional(),
     hardiness: z.string().optional(),
+    hardiness_zone: z
+      .enum(["H1", "H2", "H3", "H4", "H5"])
+      .optional()
+      .describe("PFAF hardiness icon: H1=tender/10°C, H2=half hardy/0°C, H3=frost hardy/-5°C, H4=fully hardy/-15°C, H5=very hardy"),
     height_m: z.number().optional(),
     habit: z.string().optional(),
     edibility: z.number().min(0).max(5).optional(),
@@ -19,14 +23,18 @@ const plants = defineCollection({
     other_uses: z.number().min(0).max(5).optional(),
     weed_potential: z.string().optional(),
     hazards: z.string().optional(),
-    care: z
+    soil: z
       .object({
-        hardy: z.boolean().default(false),
         well_drained: z.boolean().default(false),
         moist: z.boolean().default(false),
         wet: z.boolean().default(false),
+        water: z.boolean().default(false),
+      })
+      .default({}),
+    light: z
+      .object({
         full_sun: z.boolean().default(false),
-        semi_shade: z.boolean().default(false),
+        part_shade: z.boolean().default(false),
         full_shade: z.boolean().default(false),
       })
       .default({}),
