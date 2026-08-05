@@ -12,6 +12,16 @@ interface Props {
   authorName?: string;
   datePublished?: string;
   dateModified?: string;
+  // For articles — main image used in og:image, twitter:image, JSON-LD
+  ogImage?: string;
+  // Article section / tags for richer metadata
+  articleSection?: string;
+  articleTags?: string[];
+  // Breadcrumbs for BreadcrumbList JSON-LD
+  breadcrumbs?: Array<{ name: string; url: string }>;
+  // Mobile / desktop preview size hints
+  imageWidth?: number;
+  imageHeight?: number;
 }
 
 const {
@@ -23,12 +33,22 @@ const {
   authorName = "trvnk",
   datePublished,
   dateModified,
+  ogImage,
+  articleSection,
+  articleTags = [],
+  breadcrumbs,
+  imageWidth = 1200,
+  imageHeight = 630,
 } = Astro.props;
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "https://trvnk.ru";
 const pageUrl = canonical ?? new URL(Astro.url.pathname, siteUrl).toString();
+// Default OG image: site logo / generated preview
+const finalOgImage = ogImage
+  ? new URL(ogImage, siteUrl).toString()
+  : `${siteUrl}/og-default.png`;
 
-// Build JSON-LD: Organization (always) + custom data (page-specific)
+// Build JSON-LD: Organization (always) + Website + Breadcrumbs + custom
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -37,6 +57,7 @@ const orgJsonLd = {
   url: siteUrl,
   description: "Русскоязычный каталог полезных растений",
   inLanguage: "ru-RU",
+  logo: `${siteUrl}/favicon.svg`,
 };
 
 const websiteJsonLd = ogType === "website" ? {
@@ -44,7 +65,7 @@ const websiteJsonLd = ogType === "website" ? {
   "@type": "WebSite",
   "@id": `${siteUrl}/#website`,
   url: siteUrl,
-  name: title,
+  name: "trvnk — каталог полезных растений",
   description,
   inLanguage: "ru-RU",
   publisher: { "@id": `${siteUrl}/#organization` },
@@ -53,32 +74,90 @@ const websiteJsonLd = ogType === "website" ? {
     target: `${siteUrl}/?q={search_term_string}`,
     "query-input": "required name=search_term_string",
   },
+  inLanguage: ["ru-RU", "en-US"],
+} : null;
+
+// WebPage JSON-LD — adds explicit language/translator info
+const webPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${pageUrl}#webpage`,
+  url: pageUrl,
+  name: title,
+  description,
+  inLanguage: "ru-RU",
+  isPartOf: { "@id": `${siteUrl}/#website` },
+  publisher: { "@id": `${siteUrl}/#organization` },
+  datePublished,
+  dateModified,
+  inLanguage: "ru-RU",
+};
+
+// BreadcrumbList — only if breadcrumbs passed
+const breadcrumbJsonLd = breadcrumbs && breadcrumbs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: breadcrumbs.map((b, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: b.name,
+    item: new URL(b.url, siteUrl).toString(),
+  })),
 } : null;
 
 const customJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
 // Compose final list — never duplicate Organization
-const allJsonLd = websiteJsonLd
-  ? [orgJsonLd, websiteJsonLd, ...customJsonLd]
-  : [orgJsonLd, ...customJsonLd];
+const allJsonLd = [
+  orgJsonLd,
+  ...(websiteJsonLd ? [websiteJsonLd] : []),
+  webPageJsonLd,
+  ...(breadcrumbJsonLd ? [breadcrumbJsonLd] : []),
+  ...customJsonLd,
+];
 ---
 <!doctype html>
-<html lang="ru">
+<html lang="ru" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="generator" content={Astro.generator} />
     <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Icons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Preconnect / DNS prefetch — speed up -->
+    <link rel="dns-prefetch" href="//trvnk.ru" />
+    <link rel="preconnect" href="https://trvnk.ru" />
+
+    <!-- Canonical + Alternate languages -->
     <link rel="canonical" href={pageUrl} />
+    <link rel="alternate" hreflang="ru" href={pageUrl} />
+    <link rel="alternate" hreflang="x-default" href={pageUrl} />
     <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly site index" />
     <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM-friendly full content" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml" />
+
+    <!-- Preload LCP image if provided -->
+    {ogImage && <link rel="preload" as="image" href={ogImage} fetchpriority="high" />}
 
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="yandex-verification" content="" />
     {datePublished && <meta name="article:published_time" content={datePublished} />}
     {dateModified && <meta name="article:modified_time" content={dateModified} />}
     {authorName && <meta name="author" content={authorName} />}
+    {articleSection && <meta name="article:section" content={articleSection} />}
+    {articleTags.map((tag) => <meta name="article:tag" content={tag} />)}
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
@@ -87,12 +166,26 @@ const allJsonLd = websiteJsonLd
     <meta property="og:description" content={description} />
     <meta property="og:url" content={pageUrl} />
     <meta property="og:locale" content="ru_RU" />
-    <meta property="og:site_name" content="trvnk" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content={finalOgImage} />
+    <meta property="og:image:width" content={String(imageWidth)} />
+    <meta property="og:image:height" content={String(imageHeight)} />
+    <meta property="og:image:alt" content={title} />
+    <meta property="og:type" content={ogType} />
+    {ogType === "article" && datePublished && <meta property="article:published_time" content={datePublished} />}
+    {ogType === "article" && dateModified && <meta property="article:modified_time" content={dateModified} />}
+    {ogType === "article" && authorName && <meta property="article:author" content={authorName} />}
+    {ogType === "article" && articleSection && <meta property="article:section" content={articleSection} />}
+    {ogType === "article" && articleTags.map((tag) => <meta property="article:tag" content={tag} />)}
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} />
+    <meta name="twitter:site" content="@trvnk_ru" />
+    <meta name="twitter:creator" content="@trvnk_ru" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={finalOgImage} />
+    <meta name="twitter:image:alt" content={title} />
 
     <!-- JSON-LD structured data -->
     {allJsonLd.map((data) => (
@@ -109,7 +202,7 @@ const allJsonLd = websiteJsonLd
           <span>trvnk</span>
         </a>
         <nav aria-label="Основная навигация">
-          <a href="/">Каталог</a>
+          <a href="/" class="brand-link">Каталог</a>
           <a href="/about">О проекте</a>
         </nav>
       </div>
@@ -125,7 +218,9 @@ const allJsonLd = websiteJsonLd
         <p class="footer-meta">
           <a href="/llms.txt">llms.txt</a> ·
           <a href="/llms-full.txt">llms-full.txt</a> ·
-          <a href="/sitemap-index.xml">карта сайта</a>
+          <a href="/sitemap-index.xml">карта сайта</a> ·
+          <a href="/humans.txt">humans.txt</a> ·
+          <a href="/feed.xml">RSS</a>
         </p>
       </div>
     </footer>

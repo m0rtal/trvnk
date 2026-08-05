@@ -17,10 +17,14 @@ const { data } = plant;
 // Build JSON-LD for this specific plant page.
 // Uses Schema.org 'Plant' type (recognized by Google, Bing, Yandex)
 // plus 'Article' for content article semantics.
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "https://trvnk.ru";
+const pageUrl = `${siteUrl}/plants/${plant.id}/`;
+const firstImage = data.images?.[0] ? new URL(data.images[0], siteUrl).toString() : `${siteUrl}/og-default.png`;
+
 const plantJsonLd = {
   "@context": "https://schema.org",
   "@type": ["Plant", "Article"],
-  "@id": `https://trvnk.ru/plants/${plant.id}/#plant`,
+  "@id": `${pageUrl}#plant`,
   name: data.title,
   alternateName: data.latin,
   scientificName: data.latin,
@@ -29,27 +33,78 @@ const plantJsonLd = {
   ...(data.habit && { growthForm: data.habit }),
   ...(data.habitat && { habitat: data.habitat }),
   ...(data.range && { nativeRange: data.range }),
-  conservationStatus: data.conservation_status ?? null,
   description: data.range ?? data.habitats ?? "",
   inLanguage: "ru-RU",
+  image: firstImage,
   // Article fields
   headline: `${data.title} — ${data.latin}`,
   datePublished: data.published?.toISOString(),
   dateModified: new Date().toISOString(),
   author: { "@type": "Organization", name: "trvnk" },
   publisher: { "@type": "Organization", name: "trvnk" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": `https://trvnk.ru/plants/${plant.id}/` },
-  // Multimedia
-  image: data.images?.[0],
+  mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
 };
+
+// FAQPage JSON-LD — auto-derived from "Edibility/Medicinal/Other uses" ratings
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${pageUrl}#faq`,
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: `Можно ли есть ${data.title}?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: data.edibility != null
+          ? `Рейтинг съедобности: ${data.edibility} из 5. ${data.edibility > 0 ? "Известны случаи пищевого использования." : "Достоверных сведений об использовании в пищу нет; рекомендуется воздерживаться без подтверждения специалиста."}`
+          : "Данные отсутствуют.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: `Используется ли ${data.title} в народной медицине?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: data.medicinal != null
+          ? `Рейтинг лечебного применения: ${data.medicinal} из 5. ${data.medicinal > 0 ? "Имеются упоминания в фитотерапии." : "Достоверных данных о лечебном применении нет."}`
+          : "Данные отсутствуют.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: `Зимует ли ${data.title} в средней полосе России?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: data.hardiness_zone
+          ? `Зона морозостойкости: ${data.hardiness_zone}. ${
+              ({H1:"Требует укрытия и тёплых условий; в открытом грунте в средней полосе России не зимует.",H2:"Полу-зимостойкое; необходимо укрытие на зиму.",H3:"Зимостойкое, до -5 °C; в средней полосе нужно укрытие.",H4:"Полностью зимостойкое, до -15 °C; в защищённых местах растёт без укрытия.",H5:"Очень зимостойкое, до -20 °C; успешно зимует.",H6:"Максимально зимостойкое, ниже -20 °C; подходит для средней полосы и севернее."})[data.hardiness_zone] || `Шкала ${data.hardiness_zone} — см. справочник морозостойкости.`
+            }`
+          : "Данные отсутствуют.",
+      },
+    },
+  ],
+};
+
+const breadcrumbs = [
+  { name: "Главная", url: `${siteUrl}/` },
+  { name: "Растения", url: `${siteUrl}/` },
+  { name: data.title, url: pageUrl },
+];
 ---
 <Base
   title={`${data.title} — ${data.latin}`}
   description={data.range ?? data.common ?? ""}
   ogType="article"
-  jsonLd={plantJsonLd}
+  jsonLd={[plantJsonLd, faqJsonLd]}
   datePublished={data.published?.toISOString()}
   dateModified={new Date().toISOString()}
+  ogImage={firstImage}
+  articleSection="Ботаника"
+  articleTags={["растения", "ботаника", data.latin, data.family].filter(Boolean)}
+  breadcrumbs={breadcrumbs}
+  imageWidth={1200}
+  imageHeight={800}
 >
   <article class="plant">
     <header class="plant-header">
@@ -152,11 +207,21 @@ const plantJsonLd = {
     </table>
 
     {data.images && data.images.length > 0 && (
-      <div class="plant-gallery" role="figure" aria-label={`Фотографии ${data.title}`}>
+      <picture class="plant-gallery" role="figure" aria-label={`Фотографии ${data.title}`}>
         {data.images.map((src, i) => (
-          <img src={src} alt={`${data.title} — фото ${i + 1}`} loading="lazy" />
+          <img
+            src={src}
+            srcset={`${src} 1x`}
+            sizes="(max-width: 768px) 100vw, 720px"
+            alt={`${data.title} — фото ${i + 1}`}
+            loading={i === 0 ? "eager" : "lazy"}
+            decoding={i === 0 ? "sync" : "async"}
+            fetchpriority={i === 0 ? "high" : "low"}
+            width="1200"
+            height="800"
+          />
         ))}
-      </div>
+      </picture>
     )}
 
     <div class="plant-content">

@@ -197,3 +197,59 @@ function genLlmsIndex() {
 genLlmsIndex();
 genLlmsFull();
 genSitemap();
+genRssFeed()
+
+function genRssFeed() {
+  // Atom 1.0 feed for plant pages. Latest 50 entries.
+  if (!existsSync(PLANTS_DIR)) return;
+  const files = readdirSync(PLANTS_DIR).filter((f) => f.endsWith(".md"));
+  const plants = files
+    .map((f) => readPlant(join(PLANTS_DIR, f)))
+    .filter(Boolean);
+
+  const updated = new Date().toISOString();
+  const entries = plants
+    .slice(0, 50)
+    .map(({ fm, body, slug }) => {
+      const title = fm.title || slug;
+      const latin = fm.latin || slug;
+      const published = fm.published || new Date().toISOString();
+      const summary = (body.split("\n\n")[0] || "").slice(0, 500).replace(/[#*`]/g, "");
+      return `  <entry>
+    <id>https://trvnk.ru/plants/${slug}/</id>
+    <title>${escapeXml(title)} (${escapeXml(latin)})</title>
+    <updated>${published}</updated>
+    <link href="https://trvnk.ru/plants/${slug}/" rel="alternate"/>
+    <summary>${escapeXml(summary)}</summary>
+  </entry>`;
+    })
+    .join("\n");
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-RU">
+  <id>https://trvnk.ru/</id>
+  <title>trvnk — Каталог полезных растений</title>
+  <subtitle>Энциклопедия полезных растений на русском</subtitle>
+  <link href="https://trvnk.ru/" rel="alternate"/>
+  <link href="https://trvnk.ru/feed.xml" rel="self"/>
+  <updated>${updated}</updated>
+${entries}
+</feed>
+`;
+
+  if (!existsSync(PUBLIC)) mkdirSync(PUBLIC, {recursive: true});
+  writeFileSync(join(PUBLIC, "feed.xml"), xml, "utf8");
+  if (existsSync(DIST)) writeFileSync(join(DIST, "feed.xml"), xml, "utf8");
+  console.log(`✓ feed.xml written (${Math.min(plants.length, 50)} entries)`);
+}
+
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+

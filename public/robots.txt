@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+Disallow: /404
+
+# LLM-friendly endpoints — allow all crawlers
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /sitemap-index.xml
+
+# Sitemap
+Sitemap: https://trvnk.ru/sitemap-index.xml
+
+# Crawl-delay: be gentle
+Crawl-delay: 1
+
+# Major search engines — explicit allow
+User-agent: Googlebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI training crawlers — allow but with reference to LLM endpoints
+User-agent: GPTBot
+Allow: /llms-full.txt
+Allow: /llms.txt
+Crawl-delay: 2
+
+User-agent: anthropic-ai
+Allow: /llms-full.txt
+Allow: /llms.txt
+Crawl-delay: 2
+
+User-agent: ClaudeBot
+Allow: /llms-full.txt
+Allow: /llms.txt
+Crawl-delay: 2
+
+User-agent: PerplexityBot
+Allow: /llms-full.txt
+Allow: /llms.txt
+Crawl-delay: 2

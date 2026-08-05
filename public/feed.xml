@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-RU">
+  <id>https://trvnk.ru/</id>
+  <title>trvnk — Каталог полезных растений</title>
+  <subtitle>Энциклопедия полезных растений на русском</subtitle>
+  <link href="https://trvnk.ru/" rel="alternate"/>
+  <link href="https://trvnk.ru/feed.xml" rel="self"/>
+  <updated>2026-08-05T08:00:06.006Z</updated>
+  <entry>
+    <id>https://trvnk.ru/plants/abelia-triflora/</id>
+    <title>Абелия трёхцветковая (Abelia triflora)</title>
+    <updated>2026-08-04</updated>
+    <link href="https://trvnk.ru/plants/abelia-triflora/" rel="alternate"/>
+    <summary> Таксономия</summary>
+  </entry>
+</feed>

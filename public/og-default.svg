@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- decorative leaves -->
+  <g opacity="0.06" stroke="url(#accent)" stroke-width="2" fill="none">
+    <path d="M 50 580 Q 200 400 350 500 Q 500 600 700 480"/>
+    <path d="M 900 580 Q 1050 400 1200 500"/>
+    <circle cx="900" cy="200" r="180"/>
+    <circle cx="200" cy="100" r="120"/>
+  </g>
+  <!-- brand mark -->
+  <g transform="translate(120, 180)">
+    <circle cx="0" cy="0" r="18" fill="url(#accent)"/>
+    <text x="36" y="14" font-family="-apple-system, system-ui, sans-serif" font-size="42" font-weight="600" fill="#ffffff" letter-spacing="-1">trvnk</text>
+  </g>
+  <!-- title -->
+  <text x="120" y="320" font-family="-apple-system, system-ui, sans-serif" font-size="84" font-weight="700" fill="#ffffff" letter-spacing="-2">Полезные растения</text>
+  <text x="120" y="395" font-family="-apple-system, system-ui, sans-serif" font-size="56" font-weight="400" fill="#9ca3af">на русском, без шума</text>
+  <!-- subtitle -->
+  <text x="120" y="540" font-family="-apple-system, system-ui, sans-serif" font-size="28" font-weight="400" fill="#6b7280">Энциклопедический каталог · trvnk.ru</text>
+</svg>

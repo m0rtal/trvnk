@@ -1,0 +1,18 @@
+/* TEAM */
+Project lead: trvnk
+Contact: https://github.com/m0rtal/trvnk
+Language: Russian (primary), English (technical)
+
+/* SITE */
+Last update: 2026/08/05
+Standards: HTML5, CSS3, ES2024, Schema.org/JSON-LD
+Components: Astro 7, Open Graph, Twitter Card, JSON-LD (Plant/Article/WebSite/Breadcrumb/FAQ)
+Hosting: nginx on VDS at 213.176.113.116
+
+/* THANKS */
+Honcho — user modelling and persistence
+Firecrawl — content extraction infrastructure
+Pexels/Unsplash — botanical imagery sources
+
+For machine-readable content see /llms.txt and /llms-full.txt.
+For site structure see /sitemap-index.xml.
