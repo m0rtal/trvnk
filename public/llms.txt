@@ -1,0 +1,47 @@
+# trvnk
+
+> Русскоязычный энциклопедический каталог полезных растений.
+> Научные названия, морфология, ареал, условия выращивания, статус охраны.
+
+## Сайт
+
+- Главная: https://trvnk.ru/
+- О проекте: https://trvnk.ru/about/
+- Полный контент для LLM: https://trvnk.ru/llms-full.txt
+- Sitemap (для парсинга): https://trvnk.ru/sitemap-index.xml
+
+## Структура каталога
+
+Каждая карточка растения (`/plants/<slug>/`) содержит:
+
+1. Краткую сводку (таблица: тип, высота, семейство, ареал, морозостойкость и др.)
+2. Галерею фотографий
+3. Полное описание (таксономия, морфология, ареал, условия выращивания, размножение, статус охраны)
+4. Структурированные данные JSON-LD по Schema.org (Plant + Article)
+
+## Поля frontmatter (Markdown)
+
+```yaml
+latin: string               # научное (латинское) название
+title: string               # русское название
+common: string?             # распространённое имя (English)
+family: string?             # семейство
+range: string?              # ареал
+habitats: string?           # местообитание
+hardiness_zone: enum?       # H1..H6 (RHS)
+height_range: string?       # диапазон высоты с пояснением
+habit: string?              # тип (куст, дерево, ...)
+edibility: 0..5             # рейтинг съедобности
+medicinal: 0..5            # рейтинг лечебного применения
+other_uses: 0..5           # прочее применение
+weed_potential: string?
+hazards: string?
+soil: object?               # well_drained, moist, wet, water (booleans)
+light: object?              # full_sun, part_shade, full_shade (booleans)
+images: string[]            # пути к изображениям
+published: date             # дата публикации
+```
+
+## Растения в каталоге
+
+- [Абелия трёхцветковая (Abelia triflora)](https://trvnk.ru/plants/abelia-triflora/) — Горные леса, заросли и луга на известковых и щелочных почвах, до 3500 м над уровнем моря

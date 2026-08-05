@@ -13,23 +13,56 @@ export async function getStaticPaths() {
 const { plant } = Astro.props;
 const { Content } = await render(plant);
 const { data } = plant;
+
+// Build JSON-LD for this specific plant page.
+// Uses Schema.org 'Plant' type (recognized by Google, Bing, Yandex)
+// plus 'Article' for content article semantics.
+const plantJsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["Plant", "Article"],
+  "@id": `https://trvnk.ru/plants/${plant.id}/#plant`,
+  name: data.title,
+  alternateName: data.latin,
+  scientificName: data.latin,
+  family: data.family,
+  ...(data.common && { commonName: data.common }),
+  ...(data.habit && { growthForm: data.habit }),
+  ...(data.habitat && { habitat: data.habitat }),
+  ...(data.range && { nativeRange: data.range }),
+  conservationStatus: data.conservation_status ?? null,
+  description: data.range ?? data.habitats ?? "",
+  inLanguage: "ru-RU",
+  // Article fields
+  headline: `${data.title} — ${data.latin}`,
+  datePublished: data.published?.toISOString(),
+  dateModified: new Date().toISOString(),
+  author: { "@type": "Organization", name: "trvnk" },
+  publisher: { "@type": "Organization", name: "trvnk" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": `https://trvnk.ru/plants/${plant.id}/` },
+  // Multimedia
+  image: data.images?.[0],
+};
 ---
-<Base title={`${data.title} — ${data.latin}`} description={data.range ?? data.common ?? ""}>
+<Base
+  title={`${data.title} — ${data.latin}`}
+  description={data.range ?? data.common ?? ""}
+  ogType="article"
+  jsonLd={plantJsonLd}
+  datePublished={data.published?.toISOString()}
+  dateModified={new Date().toISOString()}
+>
   <article class="plant">
     <header class="plant-header">
-      <div class="plant-latin">{data.latin}</div>
       <h1 class="plant-title">{data.title}</h1>
+      <p class="plant-latin"><em>{data.latin}</em></p>
       <div class="plant-meta">
         {data.common && <span class="tag">{data.common}</span>}
         {data.family && <span class="tag">{data.family}</span>}
         {data.habit && <span class="tag">{data.habit}</span>}
-        {data.hardiness && <span class="tag">USDA {data.hardiness}</span>}
-        {data.range && <span class="tag">{data.range}</span>}
-        {data.height_m != null && <span class="tag">до {data.height_m} м</span>}
       </div>
     </header>
 
-    <table class="plant-summary">
+    <table class="plant-summary" aria-label="Краткая сводка">
       <tbody>
         {data.habit && (
           <tr><th>Тип</th><td>{data.habit}</td></tr>
@@ -64,27 +97,33 @@ const { data } = plant;
         <tr>
           <th>Съедобность</th>
           <td>
-            {Array.from({ length: 5 }, (_, i) => (
-              <span class={i < (data.edibility ?? 0) ? "rating-icon on" : "rating-icon off"}>★</span>
-            ))}
+            <span class="rating-stars" aria-label={`${data.edibility ?? 0} из 5 звёзд`}>
+              {Array.from({ length: 5 }, (_, i) => (
+                <span class={i < (data.edibility ?? 0) ? "rating-icon on" : "rating-icon off"} aria-hidden="true">★</span>
+              ))}
+            </span>
             <span class="rating-num">({data.edibility ?? 0} из 5)</span>
           </td>
         </tr>
         <tr>
           <th>Лекарственное</th>
           <td>
-            {Array.from({ length: 5 }, (_, i) => (
-              <span class={i < (data.medicinal ?? 0) ? "rating-icon heart on" : "rating-icon heart off"}>♥</span>
-            ))}
+            <span class="rating-stars" aria-label={`${data.medicinal ?? 0} из 5 сердец`}>
+              {Array.from({ length: 5 }, (_, i) => (
+                <span class={i < (data.medicinal ?? 0) ? "rating-icon heart on" : "rating-icon heart off"} aria-hidden="true">♥</span>
+              ))}
+            </span>
             <span class="rating-num">({data.medicinal ?? 0} из 5)</span>
           </td>
         </tr>
         <tr>
           <th>Прочее применение</th>
           <td>
-            {Array.from({ length: 5 }, (_, i) => (
-              <span class={i < (data.other_uses ?? 0) ? "rating-icon uses on" : "rating-icon uses off"}>✦</span>
-            ))}
+            <span class="rating-stars" aria-label={`${data.other_uses ?? 0} из 5 ромбов`}>
+              {Array.from({ length: 5 }, (_, i) => (
+                <span class={i < (data.other_uses ?? 0) ? "rating-icon uses on" : "rating-icon uses off"} aria-hidden="true">✦</span>
+              ))}
+            </span>
             <span class="rating-num">({data.other_uses ?? 0} из 5)</span>
           </td>
         </tr>
@@ -92,10 +131,10 @@ const { data } = plant;
           <tr>
             <th>Почва</th>
             <td class="plant-care">
-              {data.soil?.well_drained && <span class="care-icon" title="Well Drained Soil — дренированная почва"><span class="care-i">◐</span><span class="care-t">Дренированная</span></span>}
-              {data.soil?.moist && <span class="care-icon" title="Moist Soil — умеренно влажная"><span class="care-i">◑</span><span class="care-t">Умеренно влажно</span></span>}
-              {data.soil?.wet && <span class="care-icon" title="Wet Soil — сырая, плохо дренированная"><span class="care-i">●</span><span class="care-t">Сырая</span></span>}
-              {data.soil?.water && <span class="care-icon" title="Water Plants — водное растение"><span class="care-i">≈</span><span class="care-t">Водное</span></span>}
+              {data.soil?.well_drained && <span class="care-icon"><span class="care-i">◐</span><span class="care-t">Дренированная</span></span>}
+              {data.soil?.moist && <span class="care-icon"><span class="care-i">◑</span><span class="care-t">Умеренно влажно</span></span>}
+              {data.soil?.wet && <span class="care-icon"><span class="care-i">●</span><span class="care-t">Сырая</span></span>}
+              {data.soil?.water && <span class="care-icon"><span class="care-i">≈</span><span class="care-t">Водное</span></span>}
             </td>
           </tr>
         )}
@@ -103,9 +142,9 @@ const { data } = plant;
           <tr>
             <th>Свет</th>
             <td class="plant-care">
-              {data.light?.full_sun && <span class="care-icon" title="Full Sun — полное солнце"><span class="care-i">☀</span><span class="care-t">Полное солнце</span></span>}
-              {data.light?.part_shade && <span class="care-icon" title="Part Shade — полутень"><span class="care-i">⛅</span><span class="care-t">Полутень</span></span>}
-              {data.light?.full_shade && <span class="care-icon" title="Full Shade — полная тень"><span class="care-i">☁</span><span class="care-t">Полная тень</span></span>}
+              {data.light?.full_sun && <span class="care-icon"><span class="care-i">☀</span><span class="care-t">Полное солнце</span></span>}
+              {data.light?.part_shade && <span class="care-icon"><span class="care-i">⛅</span><span class="care-t">Полутень</span></span>}
+              {data.light?.full_shade && <span class="care-icon"><span class="care-i">☁</span><span class="care-t">Полная тень</span></span>}
             </td>
           </tr>
         )}
@@ -113,9 +152,9 @@ const { data } = plant;
     </table>
 
     {data.images && data.images.length > 0 && (
-      <div class="plant-gallery">
-        {data.images.map((src) => (
-          <img src={src} alt={data.title} loading="lazy" />
+      <div class="plant-gallery" role="figure" aria-label={`Фотографии ${data.title}`}>
+        {data.images.map((src, i) => (
+          <img src={src} alt={`${data.title} — фото ${i + 1}`} loading="lazy" />
         ))}
       </div>
     )}

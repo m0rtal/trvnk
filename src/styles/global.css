@@ -423,3 +423,29 @@ img {
   gap: 0.4rem;
   align-items: center;
 }
+
+
+/* Accessibility & LLM-friendliness */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 999;
+  background: var(--accent);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 0.25rem 0;
+  text-decoration: none;
+  font-weight: 500;
+}
+.skip-link:focus {
+  left: 0;
+}
+.footer-meta {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.footer-meta a {
+  color: inherit;
+}
