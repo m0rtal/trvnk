@@ -31,6 +31,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://trvnk.ru/plants/aronia-melanocarpa/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://trvnk.ru/plants/vaccinium-myrtillus/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

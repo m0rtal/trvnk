@@ -5,7 +5,7 @@
   <subtitle>Энциклопедия полезных растений на русском</subtitle>
   <link href="https://trvnk.ru/" rel="alternate"/>
   <link href="https://trvnk.ru/feed.xml" rel="self"/>
-  <updated>2026-08-05T12:24:52.434Z</updated>
+  <updated>2026-08-05T14:58:58.688Z</updated>
   <entry>
     <id>https://trvnk.ru/plants/abelia-triflora/</id>
     <title>Абелия трёхцветковая (Abelia triflora)</title>
@@ -19,6 +19,13 @@
     <updated>2026-08-05</updated>
     <link href="https://trvnk.ru/plants/abeliophyllum-distichum/" rel="alternate"/>
     <summary> Краткое описание</summary>
+  </entry>
+  <entry>
+    <id>https://trvnk.ru/plants/aronia-melanocarpa/</id>
+    <title>Арония черноплодная (Aronia melanocarpa)</title>
+    <updated>2026-08-05</updated>
+    <link href="https://trvnk.ru/plants/aronia-melanocarpa/" rel="alternate"/>
+    <summary> Таксономия</summary>
   </entry>
   <entry>
     <id>https://trvnk.ru/plants/vaccinium-myrtillus/</id>
