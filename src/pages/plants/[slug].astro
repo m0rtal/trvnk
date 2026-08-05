@@ -94,13 +94,13 @@ const { data } = plant;
           <tr>
             <th>Уход</th>
             <td class="plant-care">
-              {data.care?.hardy && <span class="care-icon" title="Морозостойкое">❄ Hardy</span>}
-              {data.care?.well_drained && <span class="care-icon" title="Дренированная почва">◐ Well drained</span>}
-              {data.care?.moist && <span class="care-icon" title="Влажная почва">� Moist</span>}
-              {data.care?.wet && <span class="care-icon" title="Влажная/болотистая">● Wet</span>}
-              {data.care?.full_sun && <span class="care-icon" title="Полное солнце">☀ Full sun</span>}
-              {data.care?.semi_shade && <span class="care-icon" title="Полутень">⛅ Semi-shade</span>}
-              {data.care?.full_shade && <span class="care-icon" title="Полная тень">☁ Full shade</span>}
+              {data.care?.hardy && <span class="care-icon" title="Морозостойкое"><span class="care-i">❄</span><span class="care-t">Морозостойкое</span></span>}
+              {data.care?.well_drained && <span class="care-icon" title="Дренированная почва"><span class="care-i">◐</span><span class="care-t">Дренированная почва</span></span>}
+              {data.care?.moist && <span class="care-icon" title="Умеренно влажная почва"><span class="care-i">◑</span><span class="care-t">Умеренно влажно</span></span>}
+              {data.care?.wet && <span class="care-icon" title="Влажная или болотистая почва"><span class="care-i">●</span><span class="care-t">Влажно/болото</span></span>}
+              {data.care?.full_sun && <span class="care-icon" title="Полное солнце"><span class="care-i">☀</span><span class="care-t">Полное солнце</span></span>}
+              {data.care?.semi_shade && <span class="care-icon" title="Полутень"><span class="care-i">⛅</span><span class="care-t">Полутень</span></span>}
+              {data.care?.full_shade && <span class="care-icon" title="Полная тень"><span class="care-i">☁</span><span class="care-t">Полная тень</span></span>}
             </td>
           </tr>
         )}
