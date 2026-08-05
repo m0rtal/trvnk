@@ -279,7 +279,8 @@ img {
    Блок .plant-gallery удалён 2026-08-05 — ранее дублировал изображения. */
 
 .plant-content {
-  max-width: 720px;
+  /* Бывший max-width: 720px убран 2026-08-05 — приводил к расхождению ширины */
+  /* текста и ширины сводной таблицы .plant-summary и внутренних <table>. */
 }
 
 .plant-content h2 {
@@ -288,7 +289,6 @@ img {
   margin: 32px 0 12px;
   letter-spacing: -0.01em;
 }
-
 .plant-content h2:first-child {
   margin-top: 0;
 }
