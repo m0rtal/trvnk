@@ -69,6 +69,18 @@ published: 2026-08-04
 
 **Плоды:** продолговатые сухие ореховидные (ахены), бороздчатые, увенчанные 5 разросшимися чашелистиками, способствующими распространению ветром. Созревают в июне–августе.
 
+## Фотографии
+
+![Цветущая ветвь Абелии трёхцветковой (*Abelia triflora*) в ботаническом саду](/plants/abelia-triflora/AbeliaTriflora.jpg)
+
+![Общий вид куста во время цветения](/plants/abelia-triflora/AbeliaTriflora2.jpg)
+
+Иллюстрации взяты из Wikimedia Commons под свободной лицензией Creative Commons. Атрибуция обязательна для воспроизведения.
+
+- **`AbeliaTriflora.jpg`** — взрослый цветущий куст в ботаническом саду. Автор: лицензия CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora.jpg
+- **`AbeliaTriflora2.jpg`** — цветущая ветвь крупным планом. Автор: CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora2.jpg
+
+
 ## Ареал
 
 Природный ареал — Гималаи и прилегающие горные системы Центральной Азии:
@@ -180,18 +192,6 @@ published: 2026-08-04
 
 В умеренном климате возможно выращивание в кадках (RHS 2024: «пристенные посадки»). Зимовка — в холодной теплице или с укрытием кроны.
 
-## Фотографии
-
-![Цветущая ветвь Абелии трёхцветковой (*Abelia triflora*) в ботаническом саду](/plants/abelia-triflora/AbeliaTriflora.jpg)
-
-![Общий вид куста во время цветения](/plants/abelia-triflora/AbeliaTriflora2.jpg)
-
-Иллюстрации взяты из Wikimedia Commons под свободной лицензией Creative Commons. Атрибуция обязательна для воспроизведения.
-
-- **`AbeliaTriflora.jpg`** — взрослый цветущий куст в ботаническом саду. Автор: лицензия CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora.jpg
-- **`AbeliaTriflora2.jpg`** — цветущая ветвь крупным планом. Автор: CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora2.jpg
-
-
 ## Источники
 
 **Таксономия и синонимия:**
@@ -231,4 +231,3 @@ published: 2026-08-04
 **Этимология имени рода:**
 
 - **Oxford Dictionary of National Biography**: [doi.org/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-144](https://doi.org/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-144) — биография Кларка Абеля (Clarke Abel, 1780–1826).
-

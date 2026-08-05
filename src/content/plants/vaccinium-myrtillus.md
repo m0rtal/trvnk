@@ -66,6 +66,23 @@ Trees and Shrubs Online (статья из Bean's *Trees and Shrubs Hardy in the
 
 Изредка встречаются формы с белыми, жёлтыми, красными или крапчатыми ягодами; в Западной Европе форма с белыми ягодами известна как *f. leucocarpum*.[4][8]
 
+## Фотографии
+
+![Цветущая черника (*Vaccinium myrtillus*) — соцветие крупным планом](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg)
+
+![Зрелые ягоды черники на побеге](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Bilberry.jpg)
+
+![Общий вид кустарничка в природе, Шпандауэрский лес, Берлин](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Spandauer_Forst.jpg)
+
+![Цветки и завязывающиеся ягоды](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_flowers_kz.jpg)
+
+Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
+
+- **`Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg`** — зрелые ягоды черники в посадке, Керава, Финляндия, 13 июля 2011. Автор: Anneli Salo, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg
+- **`Vaccinium_myrtillus_Bilberry.jpg`** — крупный план плода с восковым налётом, окрестности Равна-Гора, Горски-Котар, Хорватия, 28 сентября 2010. Автор: Ilena (Perth, Австралия), лицензия CC BY-SA 2.0. Источник: https://commons.wikimedia.org/wiki/File:Bilberry.jpg
+- **`Vaccinium_myrtillus_Spandauer_Forst.jpg`** — общий вид популяции под пологом берёзово-соснового леса, ландшафтный заказник Spandauer Forst, Берлин, Германия, 22 июля 2018. Автор: Leonhard Lenz (User:GPSLeo), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_in_the_Spandauer_Forst_06.jpg
+- **`Vaccinium_myrtillus_flowers_kz.jpg`** — одиночный поникающий цветок, Видзеньско близ Голе́нюва, Северо-Западная Польша, 9 мая 2020. Автор: Krzysztof Ziarnek (User:Kenraiz), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_kz12.jpg
+
 ## Ареал
 
 *Vaccinium myrtillus* — голарктический циркумполярный вид, аборигенный почти во всех странах Европы, в Северной и Центральной Азии, Японии, Гренландии, Западной Канаде и Западных США (Аляска, Британская Колумбия, Альберта, Вашингтон, Орегон, Айдахо, Монтана, Калифорния, Юта, Колорадо, Вайоминг).[10][11] В Европе вид отсутствует на Сардинии, Сицилии, в европейской части Турции, на Крите, Кипре, Эгейских островах, в Крыму и на юге европейской части России.[10]
@@ -172,23 +189,6 @@ RHS рекомендует размножение семенами или пол
 Народные названия в англоязычных традициях: bilberry, blaeberry (Шотландия и Северная Англия), whortleberry (Южная Англия), whinberry, winberry, hurtleberry, myrtleberry, hurts (Корнуолл и Девон), fraughan (Ирландия), braoileag (шотландский гэльский), wimberry, tracleberry, huckleberry (применительно к *V. myrtillus* в части источников).[8][10] Названия «bilberry», «blaeberry» и «whortleberry» имеют скандинавское происхождение; самое раннее английское использование слова «bilberry» относится предположительно к 1577 году, тогда как «blueberry» в шотландском парламентском акте датируется 1594 годом.[14]
 
 В русском языке «черника» — исконное славянское название, образованное от *черный* по цвету зрелых ягод; в Полесье и в западных областях России и Белоруссии вид известен также как *черничник*, *чернец*, *черняга*; в Карпатах и на Буковине — *афини*, *афина*; в Карпатах и Прикарпатье — *яфина*, *яфинник*.[7]
-
-## Фотографии
-
-![Цветущая черника (*Vaccinium myrtillus*) — соцветие крупным планом](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg)
-
-![Зрелые ягоды черники на побеге](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Bilberry.jpg)
-
-![Общий вид кустарничка в природе, Шпандауэрский лес, Берлин](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Spandauer_Forst.jpg)
-
-![Цветки и завязывающиеся ягоды](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_flowers_kz.jpg)
-
-Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
-
-- **`Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg`** — зрелые ягоды черники в посадке, Керава, Финляндия, 13 июля 2011. Автор: Anneli Salo, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg
-- **`Vaccinium_myrtillus_Bilberry.jpg`** — крупный план плода с восковым налётом, окрестности Равна-Гора, Горски-Котар, Хорватия, 28 сентября 2010. Автор: Ilena (Perth, Австралия), лицензия CC BY-SA 2.0. Источник: https://commons.wikimedia.org/wiki/File:Bilberry.jpg
-- **`Vaccinium_myrtillus_Spandauer_Forst.jpg`** — общий вид популяции под пологом берёзово-соснового леса, ландшафтный заказник Spandauer Forst, Берлин, Германия, 22 июля 2018. Автор: Leonhard Lenz (User:GPSLeo), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_in_the_Spandauer_Forst_06.jpg
-- **`Vaccinium_myrtillus_flowers_kz.jpg`** — одиночный поникающий цветок, Видзеньско близ Голе́нюва, Северо-Западная Польша, 9 мая 2020. Автор: Krzysztof Ziarnek (User:Kenraiz), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_kz12.jpg
 
 ## Источники
 
