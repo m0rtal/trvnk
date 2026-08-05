@@ -16,7 +16,8 @@ const plants = defineCollection({
       .enum(["H1", "H2", "H3", "H4", "H5", "H6"])
       .optional()
       .describe("Hardiness icon: H1=tender/10°C, H2=half hardy/0°C, H3=frost hardy/-5°C, H4=fully hardy/-15°C, H5=very hardy/-20°C, H6=hardiest/-20°C+"),
-    height_m: z.number().optional(),
+    height_m: z.number().optional(),  // legacy: numeric field for backward compat
+    height_range: z.string().optional(),
     habit: z.string().optional(),
     edibility: z.number().min(0).max(5).optional(),
     medicinal: z.number().min(0).max(5).optional(),
