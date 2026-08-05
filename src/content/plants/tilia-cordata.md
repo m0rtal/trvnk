@@ -26,6 +26,24 @@ images:
 published: 2026-08-05
 ---
 
+## Фотографии
+
+
+![Взрослая липа мелколистная (*Tilia cordata*) в Новом ботаническом саду Марбурга](/plants/tilia-cordata/Tilia_cordata_001.jpg)
+
+![Молодая липа у Райлингена, Баден-Вюртемберг](/plants/tilia-cordata/20130705_Tilia_cordata4.jpg)
+
+![Цветущая ветвь липы мелколистной](/plants/tilia-cordata/Tilia-cordata2.jpg)
+
+Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
+
+- **`Tilia_cordata_001.jpg`** — общий вид взрослого дерева в Новом ботаническом саду Марбурга (Гессен, Германия), 22 сентября 2007. Автор: Willow (псевдоним участника Commons). Лицензия: CC BY-SA 3.0 Unported (с возможностью выбора между GFDL и CC BY 2.5). Источник: https://commons.wikimedia.org/wiki/File:Tilia_cordata_001.jpg
+- **`20130705_Tilia_cordata4.jpg`** — молодая Winterlinde (*Tilia cordata*) у Райлингена (Баден-Вюртемберг, Германия), 5 июля 2013. Автор: AnRo0002. Лицензия: CC0 1.0 Universal Public Domain Dedication (автор отказался от всех прав). Источник: https://commons.wikimedia.org/wiki/File:20130705Tilia_cordata4.jpg
+- **`Tilia-cordata2.jpg`** — цветущая ветвь *Tilia cordata*. Автор: Sten (исходный файл 9 февраля 2005), редакция JoJan (8 мая 2005). Лицензия: GFDL 1.2 и CC BY-SA 3.0 Unported. Источник: https://commons.wikimedia.org/wiki/File:Tilia-cordata2.JPG
+
+
+
+
 ## Таксономия
 
 Принятое научное название — *Tilia cordata* Mill., *Gardeners Dictionary* ed. 8, no. 1 (1768). Автор — Philip Miller (1691–1771), британский ботаник, главный садовник *Chelsea Physic Garden*, восьмое издание его *Gardeners Dictionary* (1768) — базовая точка отсчёта для многих линнеевских родов. Аббревиатура автора: *Mill.* Видовой эпитет *cordata* — «сердцевидная» (от лат. *cor, cordis* — «сердце»), по характерной сердцевидной форме основания листа. Источники: Wikispecies; Trees and Shrubs Online (Johnson & Sutton 2020); Wikipedia.
@@ -59,20 +77,6 @@ published: 2026-08-05
 Плод — шаровидный или слегка овальный орешек 5–8 мм длиной (по Pigott 2012, 6–7 × 4 мм), одно- или двусемянный, с тонкой кожистой неребристой оболочкой, густо опушённый коричневатыми волосками. Созревает в августе — сентябре. Пыльцевые зёрна трёхбороздные, шаровидно-сплющенные, длина полярной оси 25,5–28,9 мкм, экваториальный диаметр 32,3–35,8 мкм (по сводке «Деревья и кустарники», цит. по ru.wikipedia).
 
 Жизненная форма по Раункиеру — фанерофит: почки возобновления находятся высоко над землёй.
-
-## Фотографии
-
-![Взрослая липа мелколистная (*Tilia cordata*) в Новом ботаническом саду Марбурга](/plants/tilia-cordata/Tilia_cordata_001.jpg)
-
-![Молодая липа у Райлингена, Баден-Вюртемберг](/plants/tilia-cordata/20130705_Tilia_cordata4.jpg)
-
-![Цветущая ветвь липы мелколистной](/plants/tilia-cordata/Tilia-cordata2.jpg)
-
-Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
-
-- **`Tilia_cordata_001.jpg`** — общий вид взрослого дерева в Новом ботаническом саду Марбурга (Гессен, Германия), 22 сентября 2007. Автор: Willow (псевдоним участника Commons). Лицензия: CC BY-SA 3.0 Unported (с возможностью выбора между GFDL и CC BY 2.5). Источник: https://commons.wikimedia.org/wiki/File:Tilia_cordata_001.jpg
-- **`20130705_Tilia_cordata4.jpg`** — молодая Winterlinde (*Tilia cordata*) у Райлингена (Баден-Вюртемберг, Германия), 5 июля 2013. Автор: AnRo0002. Лицензия: CC0 1.0 Universal Public Domain Dedication (автор отказался от всех прав). Источник: https://commons.wikimedia.org/wiki/File:20130705Tilia_cordata4.jpg
-- **`Tilia-cordata2.jpg`** — цветущая ветвь *Tilia cordata*. Автор: Sten (исходный файл 9 февраля 2005), редакция JoJan (8 мая 2005). Лицензия: GFDL 1.2 и CC BY-SA 3.0 Unported. Источник: https://commons.wikimedia.org/wiki/File:Tilia-cordata2.JPG
 
 ## Ареал
 

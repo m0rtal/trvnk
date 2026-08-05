@@ -28,6 +28,27 @@ images:
 published: 2026-08-05
 ---
 
+## Фотографии
+
+
+![Цветущая черника (*Vaccinium myrtillus*) — соцветие крупным планом](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg)
+
+![Зрелые ягоды черники на побеге](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Bilberry.jpg)
+
+![Общий вид кустарничка в природе, Шпандауэрский лес, Берлин](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Spandauer_Forst.jpg)
+
+![Цветки и завязывающиеся ягоды](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_flowers_kz.jpg)
+
+Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
+
+- **`Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg`** — зрелые ягоды черники в посадке, Керава, Финляндия, 13 июля 2011. Автор: Anneli Salo, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg
+- **`Vaccinium_myrtillus_Bilberry.jpg`** — крупный план плода с восковым налётом, окрестности Равна-Гора, Горски-Котар, Хорватия, 28 сентября 2010. Автор: Ilena (Perth, Австралия), лицензия CC BY-SA 2.0. Источник: https://commons.wikimedia.org/wiki/File:Bilberry.jpg
+- **`Vaccinium_myrtillus_Spandauer_Forst.jpg`** — общий вид популяции под пологом берёзово-соснового леса, ландшафтный заказник Spandauer Forst, Берлин, Германия, 22 июля 2018. Автор: Leonhard Lenz (User:GPSLeo), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_in_the_Spandauer_Forst_06.jpg
+- **`Vaccinium_myrtillus_flowers_kz.jpg`** — одиночный поникающий цветок, Видзеньско близ Голе́нюва, Северо-Западная Польша, 9 мая 2020. Автор: Krzysztof Ziarnek (User:Kenraiz), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_kz12.jpg
+
+
+
+
 ## Таксономия
 
 Принятое научное название — *Vaccinium myrtillus* L., 1753, *Species Plantarum* 1: 349. Базоним совпадает с принятым названием; описание вида приведено Карлом Линнеем по европейскому материалу.[1][2] Семейство: Ericaceae; подсемейство Vaccinioideae; триба Vaccinieae; род *Vaccinium*; подрод *Vaccinium*; секция *Vaccinium* sect. *Myrtillus*.[1] В системе APG IV (2026) род помещён в порядок Ericales.
@@ -65,23 +86,6 @@ Trees and Shrubs Online (статья из Bean's *Trees and Shrubs Hardy in the
 Плод — округлая многосемянная ягода 5–10 мм в диаметре, с остатками чашечки на верхушке, чёрно-синяя с сизым восковым налётом; мякоть окрашена антоцианами как в кожице, так и в мякоти (отличие от голубики высокорослой *V. corymbosum*, у которой мякоть бесцветная).[8][10] Семена мелкие, коричневатые, серповидные; в одной ягоде в среднем 25 семян.[8] Плодоносит в июле–сентябре.[7][8] Диплоид, 2n = 24.[10]
 
 Изредка встречаются формы с белыми, жёлтыми, красными или крапчатыми ягодами; в Западной Европе форма с белыми ягодами известна как *f. leucocarpum*.[4][8]
-
-## Фотографии
-
-![Цветущая черника (*Vaccinium myrtillus*) — соцветие крупным планом](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg)
-
-![Зрелые ягоды черники на побеге](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Bilberry.jpg)
-
-![Общий вид кустарничка в природе, Шпандауэрский лес, Берлин](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Spandauer_Forst.jpg)
-
-![Цветки и завязывающиеся ягоды](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_flowers_kz.jpg)
-
-Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
-
-- **`Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg`** — зрелые ягоды черники в посадке, Керава, Финляндия, 13 июля 2011. Автор: Anneli Salo, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg
-- **`Vaccinium_myrtillus_Bilberry.jpg`** — крупный план плода с восковым налётом, окрестности Равна-Гора, Горски-Котар, Хорватия, 28 сентября 2010. Автор: Ilena (Perth, Австралия), лицензия CC BY-SA 2.0. Источник: https://commons.wikimedia.org/wiki/File:Bilberry.jpg
-- **`Vaccinium_myrtillus_Spandauer_Forst.jpg`** — общий вид популяции под пологом берёзово-соснового леса, ландшафтный заказник Spandauer Forst, Берлин, Германия, 22 июля 2018. Автор: Leonhard Lenz (User:GPSLeo), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_in_the_Spandauer_Forst_06.jpg
-- **`Vaccinium_myrtillus_flowers_kz.jpg`** — одиночный поникающий цветок, Видзеньско близ Голе́нюва, Северо-Западная Польша, 9 мая 2020. Автор: Krzysztof Ziarnek (User:Kenraiz), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_kz12.jpg
 
 ## Ареал
 

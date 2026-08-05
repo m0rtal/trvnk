@@ -28,6 +28,27 @@ images:
 published: 2026-08-05
 ---
 
+## Фотографии
+
+
+![Цветущий побег черноплодной рябины (*Aronia melanocarpa*)](/plants/aronia-melanocarpa/Aronia_melanocarpa_Sten_Porse.jpg)
+
+![Зрелые плоды в щитках, Истад, Швеция, 2021 год](/plants/aronia-melanocarpa/Aronia_melanocarpa_fruit_Ystad_2021.jpg)
+
+![Плодоносящий куст культивара 'Rubina' в Эколого-ботаническом саду Байройта](/plants/aronia-melanocarpa/Aronia_melanocarpa_Rubina_Bayreuth.jpg)
+
+![Лист с верхней и нижней стороной, Катлер, Онтарио](/plants/aronia-melanocarpa/Aronia_melanocarpa_leaves_Cutler.jpg)
+
+Иллюстрации в карточке взяты из Wikimedia Commons под свободными лицензиями Creative Commons. Указаны автор, исходный URL, дата съёмки и номер лицензии для каждой фотографии; для воспроизведения на сторонних ресурсах необходимо сохранять атрибуцию.
+
+- **`Aronia_melanocarpa_Sten_Porse.jpg`** — цветущий побег *Aronia melanocarpa* с цветками и листьями. Автор: Sten Porse (собственная работа), лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Aronia-melanocarpa-Aron.JPG
+- **`Aronia_melanocarpa_fruit_Ystad_2021.jpg`** — зрелые плоды в щитках, Истад (Ystad), Швеция, 2021 год. Автор: Jonn Leffmann (собственная работа), лицензия CC BY 3.0. Источник: https://commons.wikimedia.org/wiki/File:Aroniab%C3%A4r_-_(Aronia_melanocarpa)_-_Ystad-2021.jpg
+- **`Aronia_melanocarpa_Rubina_Bayreuth.jpg`** — плодоносящий куст культивара 'Rubina' в Эколого-ботаническом саду Байройта (Ökologisch-Botanischer Garten, Universität Bayreuth), Германия, 15 сентября 2013 года. Автор: Manfred Sause (User:Don Manfredo), лицензия CC BY-SA 3.0 (также GFDL). Источник: https://commons.wikimedia.org/wiki/File:Aronia_melanocarpa_cv_Rubina_P1020524.JPG
+- **`Aronia_melanocarpa_leaves_Cutler.jpg`** — лист с верхней и нижней стороной, Катлер (Cutler), провинция Онтарио, Канада, 8 июля 2014 года. Автор: Jill Lee (Flickr: jillllybean), лицензия CC BY-SA 2.0. Источник: https://commons.wikimedia.org/wiki/File:Aronia_melanocarpa_(14812229919).jpg
+
+
+
+
 ## Таксономия
 
 Принятое научное название — *Aronia melanocarpa* (Michx.) Elliott, *Sketch Bot. S. Carolina* 1: 557 (1821). Базоним — *Mespilus arbutifolia* var. *melanocarpa* Michx., *Fl. Bor.-Amer.* 1: 292 (1803); то есть первоначально растение было описано как разновидность *Mespilus arbutifolia* (ныне — *Aronia arbutifolia* (L.) Pers., красная арония), а в ранг самостоятельного вида переведено Стивеном Эллиоттом в 1821 году. Семейство: Rosaceae (розовые); подсемейство Amygdaloideae (= Maloideae); триба Maleae; род *Aronia* Medik., 1789; подрод и секция в роде не выделяются.[1][2]
@@ -62,23 +83,6 @@ Trees and Shrubs Online (по статье Bean W.J., *Trees and Shrubs Hardy in
 Плод — шаровидное, слегка сплюснутое яблокообразное соплодие (ботанически «яблоко», *pome*) 6–13 мм в диаметре, массой 0,6–1,5 г; кожица чёрная или чёрно-пурпурная, блестящая, с лёгким сизым восковым налётом; мякоть кисловато-сладкая с выраженной терпкостью. У культиваров плоды крупнее. Плоды созревают в августе — сентябре и быстро опадают, что отличает *A. melanocarpa* от *A. arbutifolia*, плоды которой сохраняются на ветвях до середины зимы. В Северной Америке плодоношение по FNA — сентябрь–ноябрь.[1][3][6] Кариотип 2n = 34 или 68 (диплоид и тетраплоид); тетраплоидные популяции отмечены в северной части ареала.[1][6]
 
 В благоприятных условиях цветёт и плодоносит ежегодно. Самоплодный кустарник: для завязывания плодов достаточно одного растения, перекрёстное опыление не требуется.[8]
-
-## Фотографии
-
-![Цветущий побег черноплодной рябины (*Aronia melanocarpa*)](/plants/aronia-melanocarpa/Aronia_melanocarpa_Sten_Porse.jpg)
-
-![Зрелые плоды в щитках, Истад, Швеция, 2021 год](/plants/aronia-melanocarpa/Aronia_melanocarpa_fruit_Ystad_2021.jpg)
-
-![Плодоносящий куст культивара 'Rubina' в Эколого-ботаническом саду Байройта](/plants/aronia-melanocarpa/Aronia_melanocarpa_Rubina_Bayreuth.jpg)
-
-![Лист с верхней и нижней стороной, Катлер, Онтарио](/plants/aronia-melanocarpa/Aronia_melanocarpa_leaves_Cutler.jpg)
-
-Иллюстрации в карточке взяты из Wikimedia Commons под свободными лицензиями Creative Commons. Указаны автор, исходный URL, дата съёмки и номер лицензии для каждой фотографии; для воспроизведения на сторонних ресурсах необходимо сохранять атрибуцию.
-
-- **`Aronia_melanocarpa_Sten_Porse.jpg`** — цветущий побег *Aronia melanocarpa* с цветками и листьями. Автор: Sten Porse (собственная работа), лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Aronia-melanocarpa-Aron.JPG
-- **`Aronia_melanocarpa_fruit_Ystad_2021.jpg`** — зрелые плоды в щитках, Истад (Ystad), Швеция, 2021 год. Автор: Jonn Leffmann (собственная работа), лицензия CC BY 3.0. Источник: https://commons.wikimedia.org/wiki/File:Aroniab%C3%A4r_-_(Aronia_melanocarpa)_-_Ystad-2021.jpg
-- **`Aronia_melanocarpa_Rubina_Bayreuth.jpg`** — плодоносящий куст культивара 'Rubina' в Эколого-ботаническом саду Байройта (Ökologisch-Botanischer Garten, Universität Bayreuth), Германия, 15 сентября 2013 года. Автор: Manfred Sause (User:Don Manfredo), лицензия CC BY-SA 3.0 (также GFDL). Источник: https://commons.wikimedia.org/wiki/File:Aronia_melanocarpa_cv_Rubina_P1020524.JPG
-- **`Aronia_melanocarpa_leaves_Cutler.jpg`** — лист с верхней и нижней стороной, Катлер (Cutler), провинция Онтарио, Канада, 8 июля 2014 года. Автор: Jill Lee (Flickr: jillllybean), лицензия CC BY-SA 2.0. Источник: https://commons.wikimedia.org/wiki/File:Aronia_melanocarpa_(14812229919).jpg
 
 ## Ареал
 

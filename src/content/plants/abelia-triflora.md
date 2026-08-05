@@ -23,6 +23,22 @@ images: ["/plants/abelia-triflora/AbeliaTriflora.jpg", "/plants/abelia-triflora/
 published: 2026-08-04
 ---
 
+## Фотографии
+
+
+![Цветущая ветвь Абелии трёхцветковой (*Abelia triflora*) в ботаническом саду](/plants/abelia-triflora/AbeliaTriflora.jpg)
+
+![Общий вид куста во время цветения](/plants/abelia-triflora/AbeliaTriflora2.jpg)
+
+Иллюстрации взяты из Wikimedia Commons под свободной лицензией Creative Commons. Атрибуция обязательна для воспроизведения.
+
+- **`AbeliaTriflora.jpg`** — взрослый цветущий куст в ботаническом саду. Автор: лицензия CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora.jpg
+- **`AbeliaTriflora2.jpg`** — цветущая ветвь крупным планом. Автор: CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora2.jpg
+
+
+
+
+
 ## Таксономия
 
 **Принятое научное название:** *Zabelia triflora* (R.Br. ex Wall.) Makino, Makinoa 9: 175 (1948).
@@ -68,18 +84,6 @@ published: 2026-08-04
 **Цветки:** трубчатые, 1–2 см длиной, двугубые отгибом из 5 округлых долей; **белые или розоватые**. Трубка густо опушённая внутри. **Аромат сильный, ванильный** — характерная особенность вида. Чашелистиков 5, линейные, 4–10 × ≈1 мм, по краю — жёсткие реснички; остаются при плодах.
 
 **Плоды:** продолговатые сухие ореховидные (ахены), бороздчатые, увенчанные 5 разросшимися чашелистиками, способствующими распространению ветром. Созревают в июне–августе.
-
-## Фотографии
-
-![Цветущая ветвь Абелии трёхцветковой (*Abelia triflora*) в ботаническом саду](/plants/abelia-triflora/AbeliaTriflora.jpg)
-
-![Общий вид куста во время цветения](/plants/abelia-triflora/AbeliaTriflora2.jpg)
-
-Иллюстрации взяты из Wikimedia Commons под свободной лицензией Creative Commons. Атрибуция обязательна для воспроизведения.
-
-- **`AbeliaTriflora.jpg`** — взрослый цветущий куст в ботаническом саду. Автор: лицензия CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora.jpg
-- **`AbeliaTriflora2.jpg`** — цветущая ветвь крупным планом. Автор: CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora2.jpg
-
 
 ## Ареал
 

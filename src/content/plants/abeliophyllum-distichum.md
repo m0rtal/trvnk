@@ -29,11 +29,8 @@ images:
 published: 2026-08-05
 ---
 
-## Краткое описание
-
-*Abeliophyllum distichum* — листопадный кустарник с раскидистыми или дуговидными побегами; в свободной форме образует рыхлый куст до примерно 1,5 × 1,5 м. При выращивании у стены и подвязке отдельные растения могут превышать 2 м.[4]
-
 ## Фотографии
+
 
 ![Куст белой абелии (*Abeliophyllum distichum*) в период полного цветения](/plants/abeliophyllum-distichum/Abeliophyllum_distichum_03.jpg)
 
@@ -55,6 +52,13 @@ published: 2026-08-05
 - **`Abeliophyllum_distichum_hero.jpg`** — общий план куста в Сеуле, Корея, сентябрь 2019. Автор: Bungari, лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_1.jpg
 - **`Abeliophyllum_distichum_arboretum.jpg`** — куст в US National Arboretum (Вашингтон, США), 19 апреля 2006. Автор: David J. Stang, лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_0zz.jpg
 - **`Abeliophyllum_distichum_fruits.jpg`** — плоды во дворце Кёнбоккун (Сеул, Корея), 28 июля 2008. Автор: Dalgial, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_02.JPG
+
+
+
+
+## Краткое описание
+
+*Abeliophyllum distichum* — листопадный кустарник с раскидистыми или дуговидными побегами; в свободной форме образует рыхлый куст до примерно 1,5 × 1,5 м. При выращивании у стены и подвязке отдельные растения могут превышать 2 м.[4]
 
 ## Ареал
 
