@@ -358,6 +358,36 @@ img {
 .plant-summary td {
   color: var(--fg);
 }
+
+/* Plain Markdown tables inside article body (Astro renders them as <table> without a class) */
+.plant-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-size: 0.95rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.plant-content table th,
+.plant-content table td {
+  padding: 0.65rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+.plant-content table th {
+  width: 30%;
+  font-weight: 500;
+  color: var(--muted);
+  background: var(--surface);
+}
+.plant-content table td {
+  color: var(--fg);
+}
+.plant-content table thead th {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border-strong);
+}
 .rating-icon {
   font-size: 1.05rem;
   margin-right: 3px;
