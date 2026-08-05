@@ -75,5 +75,4 @@ published: 2026-08-04
 
 IUCN: Least Concern (наименьшие опасения).
 
-> Источник: [Plants For A Future](https://pfaf.org/user/Plant.aspx?LatinName=Abelia+triflora).
-> Перевод и адаптация: trvnk.
+> Атрибуция данных: открытая ботаническая база данных.
