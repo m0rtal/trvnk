@@ -5,7 +5,7 @@
   <subtitle>Энциклопедия полезных растений на русском</subtitle>
   <link href="https://trvnk.ru/" rel="alternate"/>
   <link href="https://trvnk.ru/feed.xml" rel="self"/>
-  <updated>2026-08-05T16:44:05.872Z</updated>
+  <updated>2026-08-05T17:11:13.237Z</updated>
   <entry>
     <id>https://trvnk.ru/plants/abelia-triflora/</id>
     <title>Абелия трёхцветковая (Abelia triflora)</title>
@@ -25,6 +25,13 @@
     <title>Арония черноплодная (Aronia melanocarpa)</title>
     <updated>2026-08-05</updated>
     <link href="https://trvnk.ru/plants/aronia-melanocarpa/" rel="alternate"/>
+    <summary> Фотографии</summary>
+  </entry>
+  <entry>
+    <id>https://trvnk.ru/plants/hypericum-perforatum/</id>
+    <title>Зверобой продырявленный (Hypericum perforatum)</title>
+    <updated>2026-08-05</updated>
+    <link href="https://trvnk.ru/plants/hypericum-perforatum/" rel="alternate"/>
     <summary> Фотографии</summary>
   </entry>
   <entry>
