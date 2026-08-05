@@ -103,6 +103,18 @@ North Carolina Extension Gardener Plant Toolbox сообщает об отсут
 
 ## Фотографии
 
+![Куст белой абелии (*Abeliophyllum distichum*) в период полного цветения](/plants/abeliophyllum-distichum/Abeliophyllum_distichum_03.jpg)
+
+![Соцветия белой абелии крупным планом](/plants/abeliophyllum-distichum/Abeliophyllum_distichum_5795.jpg)
+
+![Цветущий побег с характерными белыми цветками](/plants/abeliophyllum-distichum/Abeliophyllum_distichum_arboretum.jpg)
+
+![Белая абелия — общий вид цветущего куста](/plants/abeliophyllum-distichum/Abeliophyllum_distichum_flowers.jpg)
+
+![Завязывающиеся плоды белой абелии](/plants/abeliophyllum-distichum/Abeliophyllum_distichum_fruits.jpg)
+
+![Листья крупным планом](/plants/abeliophyllum-distichum/Abeliophyllum_distichum_hero.jpg)
+
 Иллюстрации в карточке взяты из Wikimedia Commons под свободными лицензиями Creative Commons. Указаны автор и исходный URL для каждой фотографии; для воспроизведения на сторонних ресурсах необходимо сохранять атрибуцию.
 
 - **`Abeliophyllum_distichum_03.jpg`** — цветущий куст, Garden Sanctuary Jonker Valley (Нидерланды), 28 февраля 2014. Автор: Dominicus Johannes Bergsma, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_03.JPG

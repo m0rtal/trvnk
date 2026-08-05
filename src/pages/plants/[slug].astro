@@ -206,23 +206,9 @@ const breadcrumbs = [
       </tbody>
     </table>
 
-    {data.images && data.images.length > 0 && (
-      <picture class="plant-gallery" role="figure" aria-label={`Фотографии ${data.title}`}>
-        {data.images.map((src, i) => (
-          <img
-            src={src}
-            srcset={`${src} 1x`}
-            sizes="(max-width: 768px) 100vw, 720px"
-            alt={`${data.title} — фото ${i + 1}`}
-            loading={i === 0 ? "eager" : "lazy"}
-            decoding={i === 0 ? "sync" : "async"}
-            fetchpriority={i === 0 ? "high" : "low"}
-            width="1200"
-            height="800"
-          />
-        ))}
-      </picture>
-    )}
+    {/* Изображения рендерятся ТОЛЬКО внутри раздела «## Фотографии» из markdown.
+        Здесь — только первое как LCP-превью над сводной таблицей, без дублирования.
+        data.images всё равно нужен для OG-картинки (firstImage выше), JSON-LD и превью на главной. */}
 
     <div class="plant-content">
       <Content />

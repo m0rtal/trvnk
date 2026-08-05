@@ -175,6 +175,14 @@ RHS рекомендует размножение семенами или пол
 
 ## Фотографии
 
+![Цветущая черника (*Vaccinium myrtillus*) — соцветие крупным планом](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg)
+
+![Зрелые ягоды черники на побеге](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Bilberry.jpg)
+
+![Общий вид кустарничка в природе, Шпандауэрский лес, Берлин](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_Spandauer_Forst.jpg)
+
+![Цветки и завязывающиеся ягоды](/plants/vaccinium-myrtillus/Vaccinium_myrtillus_flowers_kz.jpg)
+
 Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
 
 - **`Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg`** — зрелые ягоды черники в посадке, Керава, Финляндия, 13 июля 2011. Автор: Anneli Salo, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_Mustikka_IMG_1100_C-_cropped.jpg

@@ -180,6 +180,18 @@ published: 2026-08-04
 
 В умеренном климате возможно выращивание в кадках (RHS 2024: «пристенные посадки»). Зимовка — в холодной теплице или с укрытием кроны.
 
+## Фотографии
+
+![Цветущая ветвь Абелии трёхцветковой (*Abelia triflora*) в ботаническом саду](/plants/abelia-triflora/AbeliaTriflora.jpg)
+
+![Общий вид куста во время цветения](/plants/abelia-triflora/AbeliaTriflora2.jpg)
+
+Иллюстрации взяты из Wikimedia Commons под свободной лицензией Creative Commons. Атрибуция обязательна для воспроизведения.
+
+- **`AbeliaTriflora.jpg`** — взрослый цветущий куст в ботаническом саду. Автор: лицензия CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora.jpg
+- **`AbeliaTriflora2.jpg`** — цветущая ветвь крупным планом. Автор: CC BY-SA. Источник: https://commons.wikimedia.org/wiki/File:AbeliaTriflora2.jpg
+
+
 ## Источники
 
 **Таксономия и синонимия:**

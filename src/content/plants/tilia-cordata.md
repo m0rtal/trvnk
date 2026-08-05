@@ -195,6 +195,12 @@ published: 2026-08-05
 
 ## Фотографии
 
+![Взрослая липа мелколистная (*Tilia cordata*) в Новом ботаническом саду Марбурга](/plants/tilia-cordata/Tilia_cordata_001.jpg)
+
+![Молодая липа у Райлингена, Баден-Вюртемберг](/plants/tilia-cordata/20130705_Tilia_cordata4.jpg)
+
+![Цветущая ветвь липы мелколистной](/plants/tilia-cordata/Tilia-cordata2.jpg)
+
 Иллюстрации взяты из Wikimedia Commons под свободными лицензиями. Атрибуция обязательна для воспроизведения.
 
 - **`Tilia_cordata_001.jpg`** — общий вид взрослого дерева в Новом ботаническом саду Марбурга (Гессен, Германия), 22 сентября 2007. Автор: Willow (псевдоним участника Commons). Лицензия: CC BY-SA 3.0 Unported (с возможностью выбора между GFDL и CC BY 2.5). Источник: https://commons.wikimedia.org/wiki/File:Tilia_cordata_001.jpg

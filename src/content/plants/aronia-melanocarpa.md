@@ -177,6 +177,14 @@ Trees and Shrubs Online (по статье Bean W.J., *Trees and Shrubs Hardy in
 
 ## Фотографии
 
+![Цветущий побег черноплодной рябины (*Aronia melanocarpa*)](/plants/aronia-melanocarpa/Aronia_melanocarpa_Sten_Porse.jpg)
+
+![Зрелые плоды в щитках, Истад, Швеция, 2021 год](/plants/aronia-melanocarpa/Aronia_melanocarpa_fruit_Ystad_2021.jpg)
+
+![Плодоносящий куст культивара 'Rubina' в Эколого-ботаническом саду Байройта](/plants/aronia-melanocarpa/Aronia_melanocarpa_Rubina_Bayreuth.jpg)
+
+![Лист с верхней и нижней стороной, Катлер, Онтарио](/plants/aronia-melanocarpa/Aronia_melanocarpa_leaves_Cutler.jpg)
+
 Иллюстрации в карточке взяты из Wikimedia Commons под свободными лицензиями Creative Commons. Указаны автор, исходный URL, дата съёмки и номер лицензии для каждой фотографии; для воспроизведения на сторонних ресурсах необходимо сохранять атрибуцию.
 
 - **`Aronia_melanocarpa_Sten_Porse.jpg`** — цветущий побег *Aronia melanocarpa* с цветками и листьями. Автор: Sten Porse (собственная работа), лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Aronia-melanocarpa-Aron.JPG
