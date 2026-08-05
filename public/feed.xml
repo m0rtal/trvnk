@@ -5,7 +5,7 @@
   <subtitle>Энциклопедия полезных растений на русском</subtitle>
   <link href="https://trvnk.ru/" rel="alternate"/>
   <link href="https://trvnk.ru/feed.xml" rel="self"/>
-  <updated>2026-08-05T15:16:16.192Z</updated>
+  <updated>2026-08-05T15:34:03.513Z</updated>
   <entry>
     <id>https://trvnk.ru/plants/abelia-triflora/</id>
     <title>Абелия трёхцветковая (Abelia triflora)</title>
@@ -25,6 +25,13 @@
     <title>Арония черноплодная (Aronia melanocarpa)</title>
     <updated>2026-08-05</updated>
     <link href="https://trvnk.ru/plants/aronia-melanocarpa/" rel="alternate"/>
+    <summary> Таксономия</summary>
+  </entry>
+  <entry>
+    <id>https://trvnk.ru/plants/tilia-cordata/</id>
+    <title>Липа мелколистная (Tilia cordata)</title>
+    <updated>2026-08-05</updated>
+    <link href="https://trvnk.ru/plants/tilia-cordata/" rel="alternate"/>
     <summary> Таксономия</summary>
   </entry>
   <entry>
