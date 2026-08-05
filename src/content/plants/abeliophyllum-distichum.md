@@ -19,7 +19,13 @@ soil:
 light:
   full_sun: true
   part_shade: true
-images: []
+images:
+  - "/plants/abeliophyllum-distichum/Abeliophyllum_distichum_03.jpg"
+  - "/plants/abeliophyllum-distichum/Abeliophyllum_distichum_5795.jpg"
+  - "/plants/abeliophyllum-distichum/Abeliophyllum_distichum_flowers.jpg"
+  - "/plants/abeliophyllum-distichum/Abeliophyllum_distichum_hero.jpg"
+  - "/plants/abeliophyllum-distichum/Abeliophyllum_distichum_arboretum.jpg"
+  - "/plants/abeliophyllum-distichum/Abeliophyllum_distichum_fruits.jpg"
 published: 2026-08-05
 ---
 
@@ -101,6 +107,17 @@ North Carolina Extension Gardener Plant Toolbox сообщает об отсут
 В умеренном климате растение успешно выращивают в кадках у тёплой стены, на террасе или во внутреннем дворике. При выращивании в горшке зимовка возможна в холодной светлой теплице при температурах от +2 до +5 °C — этот режим позволяет избежать вымерзания уже раскрывающихся бутонов в период поздних заморозков в начале весны.[4][8]
 
 Контейнерная культура особенно актуальна для средней полосы России, где зимние и ранневесенние морозы регулярно повреждают цветочные почки при грунтовом содержании. Полив — умеренный, без застоя воды; опора шпалерой или тёплая стена помогают формировать растение с габитусом до 2 м.[4]
+
+## Фотографии
+
+Иллюстрации в карточке взяты из Wikimedia Commons под свободными лицензиями Creative Commons. Указаны автор и исходный URL для каждой фотографии; для воспроизведения на сторонних ресурсах необходимо сохранять атрибуцию.
+
+- **`Abeliophyllum_distichum_03.jpg`** — цветущий куст, Garden Sanctuary Jonker Valley (Нидерланды), 28 февраля 2014. Автор: Dominicus Johannes Bergsma, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_03.JPG
+- **`Abeliophyllum_distichum_5795.jpg`** — цветущий куст в Arboretum Glinna (Польша), 25 марта 2022. Автор: Salicyna, лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_2022-03-25_5795.jpg
+- **`Abeliophyllum_distichum_flowers.jpg`** — крупный план цветущих веток, Parc de la Tête d'Or (Лион, Франция), 23 сентября 2006. Автор: Medium69 (William Crochot), лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum-distichum.jpg
+- **`Abeliophyllum_distichum_hero.jpg`** — общий план куста в Сеуле, Корея, сентябрь 2019. Автор: Bungari, лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_1.jpg
+- **`Abeliophyllum_distichum_arboretum.jpg`** — куст в US National Arboretum (Вашингтон, США), 19 апреля 2006. Автор: David J. Stang, лицензия CC BY-SA 4.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_0zz.jpg
+- **`Abeliophyllum_distichum_fruits.jpg`** — плоды во дворце Кёнбоккун (Сеул, Корея), 28 июля 2008. Автор: Dalgial, лицензия CC BY-SA 3.0. Источник: https://commons.wikimedia.org/wiki/File:Abeliophyllum_distichum_02.JPG
 
 ## Источники
 
