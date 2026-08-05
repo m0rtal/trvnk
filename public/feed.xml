@@ -5,12 +5,26 @@
   <subtitle>Энциклопедия полезных растений на русском</subtitle>
   <link href="https://trvnk.ru/" rel="alternate"/>
   <link href="https://trvnk.ru/feed.xml" rel="self"/>
-  <updated>2026-08-05T09:54:28.474Z</updated>
+  <updated>2026-08-05T12:19:36.077Z</updated>
   <entry>
     <id>https://trvnk.ru/plants/abelia-triflora/</id>
     <title>Абелия трёхцветковая (Abelia triflora)</title>
     <updated>2026-08-04</updated>
     <link href="https://trvnk.ru/plants/abelia-triflora/" rel="alternate"/>
+    <summary> Таксономия</summary>
+  </entry>
+  <entry>
+    <id>https://trvnk.ru/plants/abeliophyllum-distichum/</id>
+    <title>Абелиолистник двурядный (Abeliophyllum distichum)</title>
+    <updated>2026-08-05</updated>
+    <link href="https://trvnk.ru/plants/abeliophyllum-distichum/" rel="alternate"/>
+    <summary> Краткое описание</summary>
+  </entry>
+  <entry>
+    <id>https://trvnk.ru/plants/vaccinium-myrtillus/</id>
+    <title>Черника обыкновенная (Vaccinium myrtillus)</title>
+    <updated>2026-08-05</updated>
+    <link href="https://trvnk.ru/plants/vaccinium-myrtillus/" rel="alternate"/>
     <summary> Таксономия</summary>
   </entry>
 </feed>
