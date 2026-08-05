@@ -5,7 +5,7 @@
   <subtitle>Энциклопедия полезных растений на русском</subtitle>
   <link href="https://trvnk.ru/" rel="alternate"/>
   <link href="https://trvnk.ru/feed.xml" rel="self"/>
-  <updated>2026-08-05T18:11:10.744Z</updated>
+  <updated>2026-08-05T20:31:13.642Z</updated>
   <entry>
     <id>https://trvnk.ru/plants/abelia-triflora/</id>
     <title>Абелия трёхцветковая (Abelia triflora)</title>
@@ -32,6 +32,13 @@
     <title>Зверобой продырявленный (Hypericum perforatum)</title>
     <updated>2026-08-05</updated>
     <link href="https://trvnk.ru/plants/hypericum-perforatum/" rel="alternate"/>
+    <summary> Фотографии</summary>
+  </entry>
+  <entry>
+    <id>https://trvnk.ru/plants/juniperus-communis/</id>
+    <title>Можжевельник обыкновенный (Juniperus communis)</title>
+    <updated>2026-08-05</updated>
+    <link href="https://trvnk.ru/plants/juniperus-communis/" rel="alternate"/>
     <summary> Фотографии</summary>
   </entry>
   <entry>

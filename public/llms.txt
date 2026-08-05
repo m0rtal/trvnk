@@ -61,5 +61,6 @@ published: date             # дата публикации
 - [Абелиолистник двурядный (Abeliophyllum distichum)](https://trvnk.ru/plants/abeliophyllum-distichum/) — Подлесок открытых лиственных и смешанных горных лесов
 - [Арония черноплодная (Aronia melanocarpa)](https://trvnk.ru/plants/aronia-melanocarpa/) — Болота, сырые заросли, берега прудов и озёр, бобровые пруды, влажные высокогорные леса, скальные выходы
 - [Зверобой продырявленный (Hypericum perforatum)](https://trvnk.ru/plants/hypericum-perforatum/) — Опушки хвойных и смешанных лесов, сухие луга, лесные поляны, вырубки, залежи, обочины дорог, окраины полей, скальные осыпи; предпочитает хорошо дренированные почвы с pH 4,3–7,6
+- [Можжевельник обыкновенный (Juniperus communis)](https://trvnk.ru/plants/juniperus-communis/) — карточка растения
 - [Липа мелколистная (Tilia cordata)](https://trvnk.ru/plants/tilia-cordata/) — Широколиственные и смешанные леса на дренированных суглинках; обогащает почву, доминирует во втором ярусе дубрав и липняков
 - [Черника обыкновенная (Vaccinium myrtillus)](https://trvnk.ru/plants/vaccinium-myrtillus/) — Хвойные и смешанные леса, верховые болота, вересковые пустоши, кустарничковые тундры; кислые подзолистые и торфянистые почвы
