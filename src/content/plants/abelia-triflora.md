@@ -4,12 +4,21 @@ title: "Абелия трёхцветковая"
 common: "Indian Abelia"
 family: "Caprifoliaceae"
 range: "В. Азия — северо-западные Гималаи"
+habitats: "Сухие заросли и каменистые склоны на известковых почвах, 1200–4200 м (Уттар-Прадеш, Индия)"
 hardiness: "5-9"
 height_m: 3.5
 habit: "Листопадный кустарник"
 edibility: 0
 medicinal: 0
 other_uses: 1
+weed_potential: "Нет"
+hazards: "Неизвестны"
+care:
+  hardy: true
+  well_drained: true
+  moist: true
+  full_sun: true
+  semi_shade: true
 images: ["/plants/abelia-triflora/AbeliaTriflora.jpg", "/plants/abelia-triflora/AbeliaTriflora2.jpg"]
 published: 2026-08-04
 ---

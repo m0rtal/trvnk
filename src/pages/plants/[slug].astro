@@ -29,6 +29,84 @@ const { data } = plant;
       </div>
     </header>
 
+    <table class="plant-summary">
+      <tbody>
+        {data.habit && (
+          <tr><th>Тип</th><td>{data.habit}</td></tr>
+        )}
+        {data.height_m != null && (
+          <tr><th>Высота</th><td>до {data.height_m} м</td></tr>
+        )}
+        {data.family && (
+          <tr><th>Семейство</th><td>{data.family}</td></tr>
+        )}
+        {data.common && (
+          <tr><th>Общепринятое имя</th><td>{data.common}</td></tr>
+        )}
+        {data.hardiness && (
+          <tr><th>USDA-зоны</th><td>{data.hardiness}</td></tr>
+        )}
+        {data.habit && data.habit.toLowerCase().includes("листопадн") && (
+          <tr><th>Листопадность</th><td>Листопадное</td></tr>
+        )}
+        {data.range && (
+          <tr><th>Ареал</th><td>{data.range}</td></tr>
+        )}
+        {data.habitats && (
+          <tr><th>Местообитание</th><td>{data.habitats}</td></tr>
+        )}
+        {data.hazards && (
+          <tr><th>Известные опасности</th><td>{data.hazards}</td></tr>
+        )}
+        {data.weed_potential && (
+          <tr><th>Сорный потенциал</th><td>{data.weed_potential}</td></tr>
+        )}
+        <tr>
+          <th>Съедобность</th>
+          <td>
+            {Array.from({ length: 5 }, (_, i) => (
+              <span class={i < (data.edibility ?? 0) ? "rating-icon on" : "rating-icon off"}>★</span>
+            ))}
+            <span class="rating-num">({data.edibility ?? 0} из 5)</span>
+          </td>
+        </tr>
+        <tr>
+          <th>Лекарственное</th>
+          <td>
+            {Array.from({ length: 5 }, (_, i) => (
+              <span class={i < (data.medicinal ?? 0) ? "rating-icon heart on" : "rating-icon heart off"}>♥</span>
+            ))}
+            <span class="rating-num">({data.medicinal ?? 0} из 5)</span>
+          </td>
+        </tr>
+        <tr>
+          <th>Прочее применение</th>
+          <td>
+            {Array.from({ length: 5 }, (_, i) => (
+              <span class={i < (data.other_uses ?? 0) ? "rating-icon uses on" : "rating-icon uses off"}>✦</span>
+            ))}
+            <span class="rating-num">({data.other_uses ?? 0} из 5)</span>
+          </td>
+        </tr>
+        {(data.care?.hardy || data.care?.well_drained || data.care?.moist ||
+          data.care?.wet || data.care?.full_sun || data.care?.semi_shade ||
+          data.care?.full_shade) && (
+          <tr>
+            <th>Уход</th>
+            <td class="plant-care">
+              {data.care?.hardy && <span class="care-icon" title="Морозостойкое">❄ Hardy</span>}
+              {data.care?.well_drained && <span class="care-icon" title="Дренированная почва">◐ Well drained</span>}
+              {data.care?.moist && <span class="care-icon" title="Влажная почва">� Moist</span>}
+              {data.care?.wet && <span class="care-icon" title="Влажная/болотистая">● Wet</span>}
+              {data.care?.full_sun && <span class="care-icon" title="Полное солнце">☀ Full sun</span>}
+              {data.care?.semi_shade && <span class="care-icon" title="Полутень">⛅ Semi-shade</span>}
+              {data.care?.full_shade && <span class="care-icon" title="Полная тень">☁ Full shade</span>}
+            </td>
+          </tr>
+        )}
+      </tbody>
+    </table>
+
     {data.images && data.images.length > 0 && (
       <div class="plant-gallery">
         {data.images.map((src) => (
