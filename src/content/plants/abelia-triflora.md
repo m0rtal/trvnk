@@ -99,8 +99,8 @@ published: 2026-08-04
 - *Linnaea triflora* (R.Br. ex Wall.) A.Braun & Vatke — устаревшее родовое имя (род *Linnaea* неоднократно использовался разными авторами для разных групп).
 - var. *parvifolia* (C.B. Clarke) Hisauti & H.Hara — мелколистная разновидность, иногда выращивается отдельно.
 
-## Статус
+## Статус охраны
 
-IUCN: не оценен (NE) согласно Trees and Shrubs Online.
+**Красная книга (IUCN Red List of Threatened Species)**: оценка **Least Concern (LC)** — «вид вызывает наименьшие опасения». По данным Walter & Gillett (1998) «1997 IUCN Red List of Threatened Plants» (*Abelia triflora*). Эта оценка была опубликована для старого таксона *Abelia triflora*; в современной номенклатуре — *Zabelia triflora* — отдельной оценки IUCN на настоящий момент не опубликовано (также см. Trees and Shrubs Online: «Not evaluated (NE)»).
 
-> Атрибуция данных: открытая ботаническая база данных (POWO, Flora of China 2021; Trees and Shrubs Online, авторитетная садоводческая энциклопедия).
+> Атрибуция данных: открытая ботаническая база данных (POWO, Flora of China 2021; Trees and Shrubs Online, авторитетная садоводческая энциклопедия; оценка IUCN по Walter & Gillett, 1998).
