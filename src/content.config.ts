@@ -19,6 +19,12 @@ const plants = defineCollection({
     height_m: z.number().optional(),  // legacy: numeric field for backward compat
     height_range: z.string().optional(),
     habit: z.string().optional(),
+    deciduous: z
+      .boolean()
+      .optional()
+      .describe(
+        "Листопадность: true для листопадных деревьев и кустарников, false для вечнозелёных и хвойных, undefined (или отсутствует) для травянистых многолетников"
+      ),
     edibility: z.number().min(0).max(5).optional(),
     medicinal: z.number().min(0).max(5).optional(),
     other_uses: z.number().min(0).max(5).optional(),

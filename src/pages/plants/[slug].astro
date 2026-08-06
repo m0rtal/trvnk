@@ -131,8 +131,12 @@ const breadcrumbs = [
         {data.common && (
           <tr><th>Общепринятое имя</th><td>{data.common}</td></tr>
         )}
-        {data.habit && data.habit.toLowerCase().includes("листопадн") && (
+        {data.deciduous === false ? (
+          <tr><th>Листопадность</th><td>Вечнозелёное</td></tr>
+        ) : data.deciduous === true ? (
           <tr><th>Листопадность</th><td>Листопадное</td></tr>
+        ) : (
+          <tr><th>Листопадность</th><td>Травянистое (отмирает на зиму)</td></tr>
         )}
         {data.range && (
           <tr><th>Ареал</th><td>{data.range}</td></tr>
